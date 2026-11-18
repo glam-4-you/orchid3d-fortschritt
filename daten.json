@@ -1,0 +1,431 @@
+{
+ "format": "orchid.fortschritt_seite/1",
+ "mehrfach": [
+  "2010-0153"
+ ],
+ "objekte": [
+  {
+   "accession": "2008-0020",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pleurothallis gratiosa",
+   "scans": 1
+  },
+  {
+   "accession": "2013-0043",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Stelis argentata",
+   "scans": 1
+  },
+  {
+   "accession": "1983-0149",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Stelis gelida",
+   "scans": 1
+  },
+  {
+   "accession": "1988-0927",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Masdevallia veitchiana",
+   "scans": 1
+  },
+  {
+   "accession": "1982-1374",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pleurothallis crocodiliceps",
+   "scans": 1
+  },
+  {
+   "accession": "1978-0833",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pleurothallis ochracea",
+   "scans": 1
+  },
+  {
+   "accession": "2004-0116",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Stelis pachyglossa",
+   "scans": 1
+  },
+  {
+   "accession": "2010-0141",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Paphiopedilum spicerianum",
+   "scans": 1
+  },
+  {
+   "accession": "2021-0083",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Paphiopedilum sangii",
+   "scans": 1
+  },
+  {
+   "accession": "1999-1050",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Phragmipedium longifolium",
+   "scans": 1
+  },
+  {
+   "accession": "1999-0940",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Epidendrum avicula",
+   "scans": 1
+  },
+  {
+   "accession": "1982-2379",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria ringens",
+   "scans": 1
+  },
+  {
+   "accession": "2011-0005",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Liparis spec.",
+   "scans": 1
+  },
+  {
+   "accession": "1988-1173",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Xylobium variegatum",
+   "scans": 1
+  },
+  {
+   "accession": "2001-0119",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Gomesa recurva",
+   "scans": 1
+  },
+  {
+   "accession": "2013-0074",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria bradei",
+   "scans": 1
+  },
+  {
+   "accession": "1978-0327",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Chelonistele sulphurea",
+   "scans": 1
+  },
+  {
+   "accession": "1990-0230",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Paphiopedilum gratrixianum var. gratrixianum",
+   "scans": 1
+  },
+  {
+   "accession": "1980-2507",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Liparis viridiflora",
+   "scans": 1
+  },
+  {
+   "accession": "1982-1931",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Scaphyglottis behrii",
+   "scans": 1
+  },
+  {
+   "accession": "1974-0980",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Oncidium ornithorhynchum",
+   "scans": 1
+  },
+  {
+   "accession": "1982-2292",
+   "daten": [
+    "2026-11-17"
+   ],
+   "datum": "2026-11-17",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria hematoglossa",
+   "scans": 1
+  },
+  {
+   "accession": "1983-1411",
+   "daten": [
+    "2026-11-16"
+   ],
+   "datum": "2026-11-16",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Dendrochilum cobbianum",
+   "scans": 1
+  },
+  {
+   "accession": "2010-0153",
+   "daten": [
+    "2026-11-13",
+    "2026-11-16"
+   ],
+   "datum": "2026-11-16",
+   "in_liste": true,
+   "mehrfach": true,
+   "name": "Liparis vestita",
+   "scans": 2
+  },
+  {
+   "accession": "2011-0032",
+   "daten": [
+    "2026-11-16"
+   ],
+   "datum": "2026-11-16",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pleurothallis ruscifolia",
+   "scans": 1
+  },
+  {
+   "accession": "1984-0149",
+   "daten": [
+    "2026-11-16"
+   ],
+   "datum": "2026-11-16",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pterostylis truncata",
+   "scans": 1
+  },
+  {
+   "accession": "2009-0088",
+   "daten": [
+    "2026-11-16"
+   ],
+   "datum": "2026-11-16",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Habenaria tridactylites",
+   "scans": 1
+  },
+  {
+   "accession": "1982-2263",
+   "daten": [
+    "2026-11-16"
+   ],
+   "datum": "2026-11-16",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Oncidium roseum",
+   "scans": 1
+  },
+  {
+   "accession": "1988-1056",
+   "daten": [
+    "2026-11-16"
+   ],
+   "datum": "2026-11-16",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Zygopetalum maculatum",
+   "scans": 1
+  },
+  {
+   "accession": "2021-0119",
+   "daten": [
+    "2026-11-16"
+   ],
+   "datum": "2026-11-16",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Masdevallia amabilis",
+   "scans": 1
+  },
+  {
+   "accession": "1982-2169",
+   "daten": [
+    "2026-11-16"
+   ],
+   "datum": "2026-11-16",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pleurothallis dentipetala",
+   "scans": 1
+  },
+  {
+   "accession": "1980-2195",
+   "daten": [
+    "2026-11-13"
+   ],
+   "datum": "2026-11-13",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Arpophyllum alpinum",
+   "scans": 1
+  },
+  {
+   "accession": "1999-1205",
+   "daten": [
+    "2026-11-13"
+   ],
+   "datum": "2026-11-13",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pterostylis obtusa",
+   "scans": 1
+  },
+  {
+   "accession": "2010-0106",
+   "daten": [
+    "2026-11-13"
+   ],
+   "datum": "2026-11-13",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Stenoglottis longifolia",
+   "scans": 1
+  },
+  {
+   "accession": "1982-2646",
+   "daten": [
+    "2026-11-13"
+   ],
+   "datum": "2026-11-13",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Paphiopedilum insigne",
+   "scans": 1
+  },
+  {
+   "accession": "1970-2093",
+   "daten": [
+    "2026-11-13"
+   ],
+   "datum": "2026-11-13",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria notylioglossa",
+   "scans": 1
+  },
+  {
+   "accession": "1979-1050",
+   "daten": [
+    "2026-11-13"
+   ],
+   "datum": "2026-11-13",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Dendrobium brunneum",
+   "scans": 1
+  }
+ ],
+ "scans": 38,
+ "stand": "2026-11-18T10:13+01:00",
+ "stand_text": "18.11.2026 10:13",
+ "ziel": {
+  "anzahl": 250,
+  "bedarf": "213 offen, 25 Arbeitstage (Mo–Fr) → 8,6 Objekte je Arbeitstag",
+  "datum": "2026-12-22",
+  "erreicht": 37,
+  "je_tag": 8.6,
+  "offen": 213,
+  "prozent": 15,
+  "tage": 25,
+  "text": "37 / 250 — 15 % erreicht",
+  "vorbei": false
+ }
+}
