@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1974-0522",
+   "daten": [
+    "2026-11-18"
+   ],
+   "datum": "2026-11-18",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Brassavola nodosa",
+   "scans": 1
+  },
+  {
    "accession": "2001-0189",
    "daten": [
     "2026-11-18"
@@ -457,19 +468,19 @@
    "scans": 1
   }
  ],
- "scans": 42,
- "stand": "2026-11-18T11:50+01:00",
- "stand_text": "18.11.2026 11:50",
+ "scans": 43,
+ "stand": "2026-11-18T12:05+01:00",
+ "stand_text": "18.11.2026 12:05",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "209 offen, 25 Arbeitstage (Mo–Fr) → 8,4 Objekte je Arbeitstag",
+  "bedarf": "208 offen, 25 Arbeitstage (Mo–Fr) → 8,4 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 41,
+  "erreicht": 42,
   "je_tag": 8.4,
-  "offen": 209,
-  "prozent": 16,
+  "offen": 208,
+  "prozent": 17,
   "tage": 25,
-  "text": "41 / 250 — 16 % erreicht",
+  "text": "42 / 250 — 17 % erreicht",
   "vorbei": false
  }
 }
