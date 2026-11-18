@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1983-0219",
+   "daten": [
+    "2026-11-18"
+   ],
+   "datum": "2026-11-18",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria crassifolia",
+   "scans": 1
+  },
+  {
    "accession": "1980-2349",
    "daten": [
     "2026-11-18"
@@ -490,19 +501,19 @@
    "scans": 1
   }
  ],
- "scans": 45,
- "stand": "2026-11-18T12:43+01:00",
- "stand_text": "18.11.2026 12:43",
+ "scans": 46,
+ "stand": "2026-11-18T12:51+01:00",
+ "stand_text": "18.11.2026 12:51",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "206 offen, 25 Arbeitstage (Mo–Fr) → 8,3 Objekte je Arbeitstag",
+  "bedarf": "205 offen, 25 Arbeitstage (Mo–Fr) → 8,2 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 44,
-  "je_tag": 8.3,
-  "offen": 206,
+  "erreicht": 45,
+  "je_tag": 8.2,
+  "offen": 205,
   "prozent": 18,
   "tage": 25,
-  "text": "44 / 250 — 18 % erreicht",
+  "text": "45 / 250 — 18 % erreicht",
   "vorbei": false
  }
 }
