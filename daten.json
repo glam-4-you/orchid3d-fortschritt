@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1980-2122",
+   "daten": [
+    "2026-11-18"
+   ],
+   "datum": "2026-11-18",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria luteoalba",
+   "scans": 1
+  },
+  {
    "accession": "2020-0085",
    "daten": [
     "2026-11-18"
@@ -556,19 +567,19 @@
    "scans": 1
   }
  ],
- "scans": 51,
- "stand": "2026-11-18T14:37+01:00",
- "stand_text": "18.11.2026 14:37",
+ "scans": 52,
+ "stand": "2026-11-18T14:47+01:00",
+ "stand_text": "18.11.2026 14:47",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "200 offen, 25 Arbeitstage (Mo–Fr) → 8,0 Objekte je Arbeitstag",
+  "bedarf": "199 offen, 25 Arbeitstage (Mo–Fr) → 8,0 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 50,
+  "erreicht": 51,
   "je_tag": 8.0,
-  "offen": 200,
+  "offen": 199,
   "prozent": 20,
   "tage": 25,
-  "text": "50 / 250 — 20 % erreicht",
+  "text": "51 / 250 — 20 % erreicht",
   "vorbei": false
  }
 }
