@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1974-0472",
+   "daten": [
+    "2026-11-18"
+   ],
+   "datum": "2026-11-18",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Cymbidium tracyanum",
+   "scans": 1
+  },
+  {
    "accession": "2008-0020",
    "daten": [
     "2026-11-17"
@@ -413,19 +424,19 @@
    "scans": 1
   }
  ],
- "scans": 38,
- "stand": "2026-11-18T10:13+01:00",
- "stand_text": "18.11.2026 10:13",
+ "scans": 39,
+ "stand": "2026-11-18T10:42+01:00",
+ "stand_text": "18.11.2026 10:42",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "213 offen, 25 Arbeitstage (Mo–Fr) → 8,6 Objekte je Arbeitstag",
+  "bedarf": "212 offen, 25 Arbeitstage (Mo–Fr) → 8,5 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 37,
-  "je_tag": 8.6,
-  "offen": 213,
+  "erreicht": 38,
+  "je_tag": 8.5,
+  "offen": 212,
   "prozent": 15,
   "tage": 25,
-  "text": "37 / 250 — 15 % erreicht",
+  "text": "38 / 250 — 15 % erreicht",
   "vorbei": false
  }
 }
