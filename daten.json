@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1982-1944",
+   "daten": [
+    "2026-11-18"
+   ],
+   "datum": "2026-11-18",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria porrecta",
+   "scans": 1
+  },
+  {
    "accession": "1974-0522",
    "daten": [
     "2026-11-18"
@@ -468,19 +479,19 @@
    "scans": 1
   }
  ],
- "scans": 43,
- "stand": "2026-11-18T12:16+01:00",
- "stand_text": "18.11.2026 12:16",
+ "scans": 44,
+ "stand": "2026-11-18T12:31+01:00",
+ "stand_text": "18.11.2026 12:31",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "208 offen, 25 Arbeitstage (Mo–Fr) → 8,4 Objekte je Arbeitstag",
+  "bedarf": "207 offen, 25 Arbeitstage (Mo–Fr) → 8,3 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 42,
-  "je_tag": 8.4,
-  "offen": 208,
+  "erreicht": 43,
+  "je_tag": 8.3,
+  "offen": 207,
   "prozent": 17,
   "tage": 25,
-  "text": "42 / 250 — 17 % erreicht",
+  "text": "43 / 250 — 17 % erreicht",
   "vorbei": false
  }
 }
