@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2001-0189",
+   "daten": [
+    "2026-11-18"
+   ],
+   "datum": "2026-11-18",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Ornithocephalus ciliatus",
+   "scans": 1
+  },
+  {
    "accession": "1979-2805",
    "daten": [
     "2026-11-18"
@@ -446,19 +457,19 @@
    "scans": 1
   }
  ],
- "scans": 41,
- "stand": "2026-11-18T11:18+01:00",
- "stand_text": "18.11.2026 11:18",
+ "scans": 42,
+ "stand": "2026-11-18T11:50+01:00",
+ "stand_text": "18.11.2026 11:50",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "210 offen, 25 Arbeitstage (Mo–Fr) → 8,4 Objekte je Arbeitstag",
+  "bedarf": "209 offen, 25 Arbeitstage (Mo–Fr) → 8,4 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 40,
+  "erreicht": 41,
   "je_tag": 8.4,
-  "offen": 210,
+  "offen": 209,
   "prozent": 16,
   "tage": 25,
-  "text": "40 / 250 — 16 % erreicht",
+  "text": "41 / 250 — 16 % erreicht",
   "vorbei": false
  }
 }
