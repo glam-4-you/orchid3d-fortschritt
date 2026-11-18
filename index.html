@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>ORCHID 3D — Fortschritt</title>
+<style>
+  body { margin: 0; font: 17px/1.4 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #f4f6f4; color: #1c2420; }
+  main { max-width: 760px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 22px; margin: 4px 0 2px; }
+  .stand { color: #5d6b63; font-size: 14px; margin: 0 0 14px; }
+  .ziel { background: #fff; border-radius: 12px; padding: 14px 16px; box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+  .ziel b { font-size: 24px; display: block; }
+  .leiste { height: 16px; background: #dfe6e1; border-radius: 8px; overflow: hidden; margin: 10px 0 8px; }
+  #balken { height: 100%; width: 0; background: #2e9b5a; }
+  .bedarf { color: #3c4a42; }
+  .hinweis { color: #8a5a00; font-size: 15px; margin: 8px 0 0; }
+  input, select { font: inherit; padding: 12px; border: 1px solid #b8c4bc; border-radius: 10px; background: #fff; box-sizing: border-box; }
+  #suche { width: 100%; margin: 16px 0 8px; }
+  .wahl { display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; margin-bottom: 8px; }
+  .wahl span { margin-right: 8px; color: #5d6b63; }
+  .wahl select { -webkit-flex: 1; flex: 1; }
+  #anzahl { color: #5d6b63; font-size: 14px; margin: 0 0 8px; }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { background: #fff; border-radius: 10px; padding: 10px 14px; margin-bottom: 6px; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+  li .nr { font-weight: 700; margin-right: 10px; }
+  li .name { font-style: italic; }
+  li .tag { display: block; color: #5d6b63; font-size: 15px; }
+  li.mehrfach { border-left: 6px solid #d98a00; }
+  li.mehrfach .tag { color: #8a5a00; }
+  li.fremd .name { font-style: normal; color: #8a5a00; }
+  .leer { color: #5d6b63; padding: 12px 4px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>ORCHID 3D — Fortschritt</h1>
+  <p class="stand" id="stand">Stand: wird geladen …</p>
+  <div class="ziel">
+    <b id="ziel-text">…</b>
+    <div class="leiste"><div id="balken"></div></div>
+    <div class="bedarf" id="bedarf"></div>
+    <p class="hinweis" id="mehrfach"></p>
+  </div>
+  <input id="suche" type="search" placeholder="Nummer oder Pflanzenname suchen" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+  <div class="wahl"><span>Sortieren</span>
+    <select id="sort">
+      <option value="datum-ab">Datum, neueste zuerst</option>
+      <option value="datum-auf">Datum, älteste zuerst</option>
+      <option value="nummer">Nummer</option>
+      <option value="name">Pflanzenname</option>
+      <option value="scans">Zahl der Scans</option>
+    </select></div>
+  <p id="anzahl"></p>
+  <ul id="liste"></ul>
+</main>
+<script>
+(function () {
+  'use strict';
+  var D = null;
+  function el(id) { return document.getElementById(id); }
+  function text(e, t) { e.textContent = t == null ? '' : String(t); }
+  function tag(d) {             // 2026-11-13 -> 13.11.2026
+    var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(d || '');
+    return m ? m[3] + '.' + m[2] + '.' + m[1] : '?';
+  }
+  function vergleich(art) {
+    function str(a, b) { return a < b ? -1 : a > b ? 1 : 0; }
+    if (art === 'nummer') return function (a, b) { return str(a.accession, b.accession); };
+    if (art === 'name') return function (a, b) {
+      return str((a.name || '￿').toLowerCase(), (b.name || '￿').toLowerCase()) || str(a.accession, b.accession);
+    };
+    if (art === 'scans') return function (a, b) { return (b.scans - a.scans) || str(a.accession, b.accession); };
+    if (art === 'datum-auf') return function (a, b) { return str(a.datum || '', b.datum || '') || str(a.accession, b.accession); };
+    return function (a, b) { return str(b.datum || '', a.datum || '') || str(a.accession, b.accession); };
+  }
+  function passt(o, q) {
+    if (!q) return true;
+    var ziffern = q.replace(/[^0-9]/g, '');
+    if ((o.accession || '').toLowerCase().indexOf(q) >= 0) return true;
+    if (ziffern.length >= 3 && (o.accession || '').replace(/[^0-9]/g, '').indexOf(ziffern) === 0) return true;
+    return (o.name || '').toLowerCase().indexOf(q) >= 0;
+  }
+  function malen() {
+    if (!D) return;
+    var q = el('suche').value.replace(/^\s+|\s+$/g, '').toLowerCase();
+    var liste = [], i, o, li, a, b, c, ul = el('liste');
+    for (i = 0; i < D.objekte.length; i++) if (passt(D.objekte[i], q)) liste.push(D.objekte[i]);
+    liste.sort(vergleich(el('sort').value));
+    while (ul.firstChild) ul.removeChild(ul.firstChild);
+    for (i = 0; i < liste.length; i++) {
+      o = liste[i];
+      li = document.createElement('li');
+      if (o.mehrfach) li.className = 'mehrfach';
+      else if (o.in_liste === false) li.className = 'fremd';
+      a = document.createElement('span'); a.className = 'nr'; text(a, o.accession);
+      b = document.createElement('span'); b.className = 'name';
+      text(b, o.name || (o.in_liste === false ? 'nicht in der Pflanzenliste' : ''));
+      c = document.createElement('span'); c.className = 'tag';
+      text(c, o.mehrfach ? o.scans + '× gescannt: ' + tage(o.daten) : 'gescannt am ' + tag(o.datum));
+      li.appendChild(a); li.appendChild(b); li.appendChild(c);
+      ul.appendChild(li);
+    }
+    if (!liste.length) {
+      li = document.createElement('li'); li.className = 'leer';
+      text(li, q ? 'Kein gescanntes Objekt passt zu „' + el('suche').value + '“ — noch nicht gescannt.'
+        : 'Noch kein Objekt gescannt.');
+      ul.appendChild(li);
+    }
+    text(el('anzahl'), q ? liste.length + ' von ' + D.objekte.length + ' gescannten Objekten' : D.objekte.length + ' gescannte Objekte');
+  }
+  function tage(daten) {
+    var aus = [], i;
+    for (i = 0; i < (daten || []).length; i++) aus.push(tag(daten[i]));
+    return aus.join(', ');
+  }
+  function zeigen(d) {
+    D = d;
+    text(el('stand'), 'Stand: ' + d.stand_text);
+    text(el('ziel-text'), d.ziel.text);
+    text(el('bedarf'), d.ziel.bedarf);
+    el('balken').style.width = (d.ziel.prozent || 0) + '%';
+    text(el('mehrfach'), d.mehrfach && d.mehrfach.length
+      ? d.mehrfach.length + (d.mehrfach.length === 1 ? ' Nummer' : ' Nummern') + ' mehrfach gescannt (zählt je einmal): ' + d.mehrfach.join(', ')
+      : '');
+    malen();
+  }
+  function laden() {
+    var x = new XMLHttpRequest();
+    x.open('GET', 'daten.json?t=' + new Date().getTime(), true);
+    x.onreadystatechange = function () {
+      if (x.readyState !== 4) return;
+      if (x.status >= 200 && x.status < 300) {
+        try { zeigen(JSON.parse(x.responseText)); return; } catch (e) { /* unten */ }
+      }
+      if (!D) text(el('stand'), 'Stand: Daten nicht lesbar — bitte später neu laden.');
+    };
+    x.send(null);
+  }
+  el('suche').oninput = malen;
+  el('suche').onkeyup = malen;
+  el('sort').onchange = malen;
+  laden();
+  setInterval(laden, 5 * 60 * 1000);
+})();
+</script>
+</body>
+</html>
