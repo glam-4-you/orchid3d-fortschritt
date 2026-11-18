@@ -132,17 +132,23 @@
   // „pageshow“ melden sich beim Wieder-Öffnen gemeinsam). Unveränderte Daten werden nicht neu gezeichnet:
   // Suche, Sortierung und Rollposition bleiben stehen.
   var TAKT_MS = 60 * 1000, ABSTAND_MS = 5 * 1000, HAENGT_MS = 30 * 1000;
-  var laeuftSeit = 0, zuletzt = 0, letzterText = null;
+  var laeuftSeit = 0, zuletzt = 0, letzterText = null, laufNr = 0, offen = null;
   function laden() {
     var jetzt = new Date().getTime();
     if (laeuftSeit && jetzt - laeuftSeit < HAENGT_MS) return;      // Anfrage läuft noch
     if (jetzt - zuletzt < ABSTAND_MS) return;
+    // Astra 18.11.: Eine hängende alte Anfrage wird abgebrochen und ihre Antwort nie mehr gewertet —
+    // sonst könnte sie verspätet neuere Daten überschreiben und die Laufsperre zurücksetzen.
+    if (offen) { try { offen.onreadystatechange = function () {}; offen.abort(); } catch (e) { /* egal */ } }
     laeuftSeit = zuletzt = jetzt;
-    var x = new XMLHttpRequest();
+    var nr = ++laufNr;
+    var x = offen = new XMLHttpRequest();
     x.open('GET', 'daten.json?t=' + jetzt, true);
     x.onreadystatechange = function () {
       if (x.readyState !== 4) return;
+      if (nr !== laufNr) return;                                    // überholt: nichts anfassen
       laeuftSeit = 0;
+      offen = null;
       if (x.status >= 200 && x.status < 300) {
         if (x.responseText === letzterText) return;                // nichts Neues: nichts anfassen
         try { zeigen(JSON.parse(x.responseText)); letzterText = x.responseText; return; } catch (e) { /* unten */ }
