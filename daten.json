@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2020-0085",
+   "daten": [
+    "2026-11-18"
+   ],
+   "datum": "2026-11-18",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria humilis",
+   "scans": 1
+  },
+  {
    "accession": "1979-2419",
    "daten": [
     "2026-11-18"
@@ -545,19 +556,19 @@
    "scans": 1
   }
  ],
- "scans": 50,
- "stand": "2026-11-18T14:31+01:00",
- "stand_text": "18.11.2026 14:31",
+ "scans": 51,
+ "stand": "2026-11-18T14:37+01:00",
+ "stand_text": "18.11.2026 14:37",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "201 offen, 25 Arbeitstage (Mo–Fr) → 8,1 Objekte je Arbeitstag",
+  "bedarf": "200 offen, 25 Arbeitstage (Mo–Fr) → 8,0 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 49,
-  "je_tag": 8.1,
-  "offen": 201,
+  "erreicht": 50,
+  "je_tag": 8.0,
+  "offen": 200,
   "prozent": 20,
   "tage": 25,
-  "text": "49 / 250 — 20 % erreicht",
+  "text": "50 / 250 — 20 % erreicht",
   "vorbei": false
  }
 }
