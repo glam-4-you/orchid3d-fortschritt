@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2021-0082",
+   "daten": [
+    "2026-11-18"
+   ],
+   "datum": "2026-11-18",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Paphiopedilum dodyanum",
+   "scans": 1
+  },
+  {
    "accession": "2021-0081",
    "daten": [
     "2026-11-18"
@@ -578,19 +589,19 @@
    "scans": 1
   }
  ],
- "scans": 53,
- "stand": "2026-11-18T14:54+01:00",
- "stand_text": "18.11.2026 14:54",
+ "scans": 54,
+ "stand": "2026-11-18T15:18+01:00",
+ "stand_text": "18.11.2026 15:18",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "198 offen, 25 Arbeitstage (Mo–Fr) → 8,0 Objekte je Arbeitstag",
+  "bedarf": "197 offen, 25 Arbeitstage (Mo–Fr) → 7,9 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 52,
-  "je_tag": 8.0,
-  "offen": 198,
+  "erreicht": 53,
+  "je_tag": 7.9,
+  "offen": 197,
   "prozent": 21,
   "tage": 25,
-  "text": "52 / 250 — 21 % erreicht",
+  "text": "53 / 250 — 21 % erreicht",
   "vorbei": false
  }
 }
