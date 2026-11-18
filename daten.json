@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2014-0125",
+   "daten": [
+    "2026-11-18"
+   ],
+   "datum": "2026-11-18",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria nasuta",
+   "scans": 1
+  },
+  {
    "accession": "1980-2144",
    "daten": [
     "2026-11-18"
@@ -512,19 +523,19 @@
    "scans": 1
   }
  ],
- "scans": 47,
- "stand": "2026-11-18T13:01+01:00",
- "stand_text": "18.11.2026 13:01",
+ "scans": 48,
+ "stand": "2026-11-18T14:00+01:00",
+ "stand_text": "18.11.2026 14:00",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "204 offen, 25 Arbeitstage (Mo–Fr) → 8,2 Objekte je Arbeitstag",
+  "bedarf": "203 offen, 25 Arbeitstage (Mo–Fr) → 8,2 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 46,
+  "erreicht": 47,
   "je_tag": 8.2,
-  "offen": 204,
-  "prozent": 18,
+  "offen": 203,
+  "prozent": 19,
   "tage": 25,
-  "text": "46 / 250 — 18 % erreicht",
+  "text": "47 / 250 — 19 % erreicht",
   "vorbei": false
  }
 }
