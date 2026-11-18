@@ -126,23 +126,42 @@
       : '');
     malen();
   }
+  // Nachladen (Ruben 18.11.): jede Minute und sofort, wenn die Seite wieder nach vorn kommt — Handys
+  // halten Zeitgeber in Hintergrund-Tabs an, sonst stünde nach dem Wieder-Öffnen minutenlang der alte Stand.
+  // Entprellt: nie zwei Anfragen zugleich, und nicht öfter als alle 5 s (Sichtbarkeit, Fokus und
+  // „pageshow“ melden sich beim Wieder-Öffnen gemeinsam). Unveränderte Daten werden nicht neu gezeichnet:
+  // Suche, Sortierung und Rollposition bleiben stehen.
+  var TAKT_MS = 60 * 1000, ABSTAND_MS = 5 * 1000, HAENGT_MS = 30 * 1000;
+  var laeuftSeit = 0, zuletzt = 0, letzterText = null;
   function laden() {
+    var jetzt = new Date().getTime();
+    if (laeuftSeit && jetzt - laeuftSeit < HAENGT_MS) return;      // Anfrage läuft noch
+    if (jetzt - zuletzt < ABSTAND_MS) return;
+    laeuftSeit = zuletzt = jetzt;
     var x = new XMLHttpRequest();
-    x.open('GET', 'daten.json?t=' + new Date().getTime(), true);
+    x.open('GET', 'daten.json?t=' + jetzt, true);
     x.onreadystatechange = function () {
       if (x.readyState !== 4) return;
+      laeuftSeit = 0;
       if (x.status >= 200 && x.status < 300) {
-        try { zeigen(JSON.parse(x.responseText)); return; } catch (e) { /* unten */ }
+        if (x.responseText === letzterText) return;                // nichts Neues: nichts anfassen
+        try { zeigen(JSON.parse(x.responseText)); letzterText = x.responseText; return; } catch (e) { /* unten */ }
       }
       if (!D) text(el('stand'), 'Stand: Daten nicht lesbar — bitte später neu laden.');
     };
     x.send(null);
   }
+  function wiederDa() { if (!document.hidden) laden(); }
+  if (document.addEventListener) {
+    document.addEventListener('visibilitychange', wiederDa, false);
+    window.addEventListener('pageshow', wiederDa, false);          // zurück aus dem Seiten-Zwischenspeicher
+    window.addEventListener('focus', wiederDa, false);
+  }
   el('suche').oninput = malen;
   el('suche').onkeyup = malen;
   el('sort').onchange = malen;
   laden();
-  setInterval(laden, 5 * 60 * 1000);
+  setInterval(laden, TAKT_MS);
 })();
 </script>
 </body>
