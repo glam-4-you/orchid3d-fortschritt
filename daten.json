@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1981-2213",
+   "daten": [
+    "2026-11-18"
+   ],
+   "datum": "2026-11-18",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Brassia ocanensis",
+   "scans": 1
+  },
+  {
    "accession": "2014-0125",
    "daten": [
     "2026-11-18"
@@ -523,19 +534,19 @@
    "scans": 1
   }
  ],
- "scans": 48,
- "stand": "2026-11-18T14:00+01:00",
- "stand_text": "18.11.2026 14:00",
+ "scans": 49,
+ "stand": "2026-11-18T14:21+01:00",
+ "stand_text": "18.11.2026 14:21",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "203 offen, 25 Arbeitstage (Mo–Fr) → 8,2 Objekte je Arbeitstag",
+  "bedarf": "202 offen, 25 Arbeitstage (Mo–Fr) → 8,1 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 47,
-  "je_tag": 8.2,
-  "offen": 203,
+  "erreicht": 48,
+  "je_tag": 8.1,
+  "offen": 202,
   "prozent": 19,
   "tage": 25,
-  "text": "47 / 250 — 19 % erreicht",
+  "text": "48 / 250 — 19 % erreicht",
   "vorbei": false
  }
 }
