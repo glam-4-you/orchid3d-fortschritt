@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1979-2805",
+   "daten": [
+    "2026-11-18"
+   ],
+   "datum": "2026-11-18",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Bulbophyllum gracillimum",
+   "scans": 1
+  },
+  {
    "accession": "2010-0295",
    "daten": [
     "2026-11-18"
@@ -435,19 +446,19 @@
    "scans": 1
   }
  ],
- "scans": 40,
- "stand": "2026-11-18T11:00+01:00",
- "stand_text": "18.11.2026 11:00",
+ "scans": 41,
+ "stand": "2026-11-18T11:18+01:00",
+ "stand_text": "18.11.2026 11:18",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "211 offen, 25 Arbeitstage (Mo–Fr) → 8,5 Objekte je Arbeitstag",
+  "bedarf": "210 offen, 25 Arbeitstage (Mo–Fr) → 8,4 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 39,
-  "je_tag": 8.5,
-  "offen": 211,
+  "erreicht": 40,
+  "je_tag": 8.4,
+  "offen": 210,
   "prozent": 16,
   "tage": 25,
-  "text": "39 / 250 — 16 % erreicht",
+  "text": "40 / 250 — 16 % erreicht",
   "vorbei": false
  }
 }
