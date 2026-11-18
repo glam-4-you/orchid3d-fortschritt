@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1980-2349",
+   "daten": [
+    "2026-11-18"
+   ],
+   "datum": "2026-11-18",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria cucullata",
+   "scans": 1
+  },
+  {
    "accession": "1982-1944",
    "daten": [
     "2026-11-18"
@@ -479,19 +490,19 @@
    "scans": 1
   }
  ],
- "scans": 44,
- "stand": "2026-11-18T12:31+01:00",
- "stand_text": "18.11.2026 12:31",
+ "scans": 45,
+ "stand": "2026-11-18T12:43+01:00",
+ "stand_text": "18.11.2026 12:43",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "207 offen, 25 Arbeitstage (Mo–Fr) → 8,3 Objekte je Arbeitstag",
+  "bedarf": "206 offen, 25 Arbeitstage (Mo–Fr) → 8,3 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 43,
+  "erreicht": 44,
   "je_tag": 8.3,
-  "offen": 207,
-  "prozent": 17,
+  "offen": 206,
+  "prozent": 18,
   "tage": 25,
-  "text": "43 / 250 — 17 % erreicht",
+  "text": "44 / 250 — 18 % erreicht",
   "vorbei": false
  }
 }
