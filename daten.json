@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1978-2039",
+   "daten": [
+    "2026-11-19"
+   ],
+   "datum": "2026-11-19",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pleurothallis linguifera",
+   "scans": 1
+  },
+  {
    "accession": "2021-0108",
    "daten": [
     "2026-11-19"
@@ -655,19 +666,19 @@
    "scans": 1
   }
  ],
- "scans": 60,
- "stand": "2026-11-19T11:35+01:00",
- "stand_text": "19.11.2026 11:35",
+ "scans": 61,
+ "stand": "2026-11-19T11:41+01:00",
+ "stand_text": "19.11.2026 11:41",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "191 offen, 24 Arbeitstage (Mo–Fr) → 8,0 Objekte je Arbeitstag",
+  "bedarf": "190 offen, 24 Arbeitstage (Mo–Fr) → 8,0 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 59,
+  "erreicht": 60,
   "je_tag": 8.0,
-  "offen": 191,
+  "offen": 190,
   "prozent": 24,
   "tage": 24,
-  "text": "59 / 250 — 24 % erreicht",
+  "text": "60 / 250 — 24 % erreicht",
   "vorbei": false
  }
 }
