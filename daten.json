@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2021-0097",
+   "daten": [
+    "2026-11-19"
+   ],
+   "datum": "2026-11-19",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Masdevallia prosartema",
+   "scans": 1
+  },
+  {
    "accession": "2013-0015",
    "daten": [
     "2026-11-19"
@@ -622,19 +633,19 @@
    "scans": 1
   }
  ],
- "scans": 57,
- "stand": "2026-11-19T10:54+01:00",
- "stand_text": "19.11.2026 10:54",
+ "scans": 58,
+ "stand": "2026-11-19T11:21+01:00",
+ "stand_text": "19.11.2026 11:21",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "194 offen, 24 Arbeitstage (Mo–Fr) → 8,1 Objekte je Arbeitstag",
+  "bedarf": "193 offen, 24 Arbeitstage (Mo–Fr) → 8,1 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 56,
+  "erreicht": 57,
   "je_tag": 8.1,
-  "offen": 194,
-  "prozent": 22,
+  "offen": 193,
+  "prozent": 23,
   "tage": 24,
-  "text": "56 / 250 — 22 % erreicht",
+  "text": "57 / 250 — 23 % erreicht",
   "vorbei": false
  }
 }
