@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1982-2163",
+   "daten": [
+    "2026-11-19"
+   ],
+   "datum": "2026-11-19",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pleurothallis rowleei",
+   "scans": 1
+  },
+  {
    "accession": "2016-0185",
    "daten": [
     "2026-11-19"
@@ -710,19 +721,19 @@
    "scans": 1
   }
  ],
- "scans": 65,
- "stand": "2026-11-19T12:15+01:00",
- "stand_text": "19.11.2026 12:15",
+ "scans": 66,
+ "stand": "2026-11-19T12:22+01:00",
+ "stand_text": "19.11.2026 12:22",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "186 offen, 24 Arbeitstage (Mo–Fr) → 7,8 Objekte je Arbeitstag",
+  "bedarf": "185 offen, 24 Arbeitstage (Mo–Fr) → 7,8 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 64,
+  "erreicht": 65,
   "je_tag": 7.8,
-  "offen": 186,
+  "offen": 185,
   "prozent": 26,
   "tage": 24,
-  "text": "64 / 250 — 26 % erreicht",
+  "text": "65 / 250 — 26 % erreicht",
   "vorbei": false
  }
 }
