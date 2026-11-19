@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1982-1634",
+   "daten": [
+    "2026-11-19"
+   ],
+   "datum": "2026-11-19",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Stelis transversalis",
+   "scans": 1
+  },
+  {
    "accession": "1982-1369",
    "daten": [
     "2026-11-19"
@@ -600,19 +611,19 @@
    "scans": 1
   }
  ],
- "scans": 55,
- "stand": "2026-11-19T10:32+01:00",
- "stand_text": "19.11.2026 10:32",
+ "scans": 56,
+ "stand": "2026-11-19T10:47+01:00",
+ "stand_text": "19.11.2026 10:47",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "196 offen, 24 Arbeitstage (Mo–Fr) → 8,2 Objekte je Arbeitstag",
+  "bedarf": "195 offen, 24 Arbeitstage (Mo–Fr) → 8,2 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 54,
+  "erreicht": 55,
   "je_tag": 8.2,
-  "offen": 196,
+  "offen": 195,
   "prozent": 22,
   "tage": 24,
-  "text": "54 / 250 — 22 % erreicht",
+  "text": "55 / 250 — 22 % erreicht",
   "vorbei": false
  }
 }
