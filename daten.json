@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2010-0188",
+   "daten": [
+    "2026-11-19"
+   ],
+   "datum": "2026-11-19",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pleurothallis discoidea",
+   "scans": 1
+  },
+  {
    "accession": "2003-0087",
    "daten": [
     "2026-11-19"
@@ -765,19 +776,19 @@
    "scans": 1
   }
  ],
- "scans": 70,
- "stand": "2026-11-19T13:58+01:00",
- "stand_text": "19.11.2026 13:58",
+ "scans": 71,
+ "stand": "2026-11-19T14:19+01:00",
+ "stand_text": "19.11.2026 14:19",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "181 offen, 24 Arbeitstage (Mo–Fr) → 7,6 Objekte je Arbeitstag",
+  "bedarf": "180 offen, 24 Arbeitstage (Mo–Fr) → 7,5 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 69,
-  "je_tag": 7.6,
-  "offen": 181,
+  "erreicht": 70,
+  "je_tag": 7.5,
+  "offen": 180,
   "prozent": 28,
   "tage": 24,
-  "text": "69 / 250 — 28 % erreicht",
+  "text": "70 / 250 — 28 % erreicht",
   "vorbei": false
  }
 }
