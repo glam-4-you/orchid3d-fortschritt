@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1982-1369",
+   "daten": [
+    "2026-11-19"
+   ],
+   "datum": "2026-11-19",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Lockhartia lunifera",
+   "scans": 1
+  },
+  {
    "accession": "2021-0082",
    "daten": [
     "2026-11-18"
@@ -589,19 +600,19 @@
    "scans": 1
   }
  ],
- "scans": 54,
- "stand": "2026-11-18T15:18+01:00",
- "stand_text": "18.11.2026 15:18",
+ "scans": 55,
+ "stand": "2026-11-19T10:32+01:00",
+ "stand_text": "19.11.2026 10:32",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "197 offen, 25 Arbeitstage (Mo–Fr) → 7,9 Objekte je Arbeitstag",
+  "bedarf": "196 offen, 24 Arbeitstage (Mo–Fr) → 8,2 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 53,
-  "je_tag": 7.9,
-  "offen": 197,
-  "prozent": 21,
-  "tage": 25,
-  "text": "53 / 250 — 21 % erreicht",
+  "erreicht": 54,
+  "je_tag": 8.2,
+  "offen": 196,
+  "prozent": 22,
+  "tage": 24,
+  "text": "54 / 250 — 22 % erreicht",
   "vorbei": false
  }
 }
