@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1980-2138",
+   "daten": [
+    "2026-11-19"
+   ],
+   "datum": "2026-11-19",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Epidendrum myrianthum",
+   "scans": 1
+  },
+  {
    "accession": "2001-0122",
    "daten": [
     "2026-11-19"
@@ -732,19 +743,19 @@
    "scans": 1
   }
  ],
- "scans": 67,
- "stand": "2026-11-19T12:29+01:00",
- "stand_text": "19.11.2026 12:29",
+ "scans": 68,
+ "stand": "2026-11-19T12:47+01:00",
+ "stand_text": "19.11.2026 12:47",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "184 offen, 24 Arbeitstage (Mo–Fr) → 7,7 Objekte je Arbeitstag",
+  "bedarf": "183 offen, 24 Arbeitstage (Mo–Fr) → 7,7 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 66,
+  "erreicht": 67,
   "je_tag": 7.7,
-  "offen": 184,
-  "prozent": 26,
+  "offen": 183,
+  "prozent": 27,
   "tage": 24,
-  "text": "66 / 250 — 26 % erreicht",
+  "text": "67 / 250 — 27 % erreicht",
   "vorbei": false
  }
 }
