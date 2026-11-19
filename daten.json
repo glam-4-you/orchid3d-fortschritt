@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2001-0122",
+   "daten": [
+    "2026-11-19"
+   ],
+   "datum": "2026-11-19",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pleurothallis phalangifera",
+   "scans": 1
+  },
+  {
    "accession": "1982-2163",
    "daten": [
     "2026-11-19"
@@ -721,19 +732,19 @@
    "scans": 1
   }
  ],
- "scans": 66,
- "stand": "2026-11-19T12:22+01:00",
- "stand_text": "19.11.2026 12:22",
+ "scans": 67,
+ "stand": "2026-11-19T12:29+01:00",
+ "stand_text": "19.11.2026 12:29",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "185 offen, 24 Arbeitstage (Mo–Fr) → 7,8 Objekte je Arbeitstag",
+  "bedarf": "184 offen, 24 Arbeitstage (Mo–Fr) → 7,7 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 65,
-  "je_tag": 7.8,
-  "offen": 185,
+  "erreicht": 66,
+  "je_tag": 7.7,
+  "offen": 184,
   "prozent": 26,
   "tage": 24,
-  "text": "65 / 250 — 26 % erreicht",
+  "text": "66 / 250 — 26 % erreicht",
   "vorbei": false
  }
 }
