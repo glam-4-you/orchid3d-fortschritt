@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2003-0005",
+   "daten": [
+    "2026-11-19"
+   ],
+   "datum": "2026-11-19",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pleurothallis eumecocaulon",
+   "scans": 1
+  },
+  {
    "accession": "2021-0107",
    "daten": [
     "2026-11-19"
@@ -677,19 +688,19 @@
    "scans": 1
   }
  ],
- "scans": 62,
- "stand": "2026-11-19T11:49+01:00",
- "stand_text": "19.11.2026 11:49",
+ "scans": 63,
+ "stand": "2026-11-19T12:03+01:00",
+ "stand_text": "19.11.2026 12:03",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "189 offen, 24 Arbeitstage (Mo–Fr) → 7,9 Objekte je Arbeitstag",
+  "bedarf": "188 offen, 24 Arbeitstage (Mo–Fr) → 7,9 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 61,
+  "erreicht": 62,
   "je_tag": 7.9,
-  "offen": 189,
-  "prozent": 24,
+  "offen": 188,
+  "prozent": 25,
   "tage": 24,
-  "text": "61 / 250 — 24 % erreicht",
+  "text": "62 / 250 — 25 % erreicht",
   "vorbei": false
  }
 }
