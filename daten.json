@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2003-0087",
+   "daten": [
+    "2026-11-19"
+   ],
+   "datum": "2026-11-19",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Microcoelia exilis",
+   "scans": 1
+  },
+  {
    "accession": "1978-1636",
    "daten": [
     "2026-11-19"
@@ -754,19 +765,19 @@
    "scans": 1
   }
  ],
- "scans": 69,
- "stand": "2026-11-19T12:56+01:00",
- "stand_text": "19.11.2026 12:56",
+ "scans": 70,
+ "stand": "2026-11-19T13:58+01:00",
+ "stand_text": "19.11.2026 13:58",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "182 offen, 24 Arbeitstage (Mo–Fr) → 7,6 Objekte je Arbeitstag",
+  "bedarf": "181 offen, 24 Arbeitstage (Mo–Fr) → 7,6 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 68,
+  "erreicht": 69,
   "je_tag": 7.6,
-  "offen": 182,
-  "prozent": 27,
+  "offen": 181,
+  "prozent": 28,
   "tage": 24,
-  "text": "68 / 250 — 27 % erreicht",
+  "text": "69 / 250 — 28 % erreicht",
   "vorbei": false
  }
 }
