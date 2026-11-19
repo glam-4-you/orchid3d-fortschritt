@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2021-0108",
+   "daten": [
+    "2026-11-19"
+   ],
+   "datum": "2026-11-19",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Masdevallia mezae",
+   "scans": 1
+  },
+  {
    "accession": "1981-1763",
    "daten": [
     "2026-11-19"
@@ -644,19 +655,19 @@
    "scans": 1
   }
  ],
- "scans": 59,
- "stand": "2026-11-19T11:28+01:00",
- "stand_text": "19.11.2026 11:28",
+ "scans": 60,
+ "stand": "2026-11-19T11:35+01:00",
+ "stand_text": "19.11.2026 11:35",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "192 offen, 24 Arbeitstage (Mo–Fr) → 8,0 Objekte je Arbeitstag",
+  "bedarf": "191 offen, 24 Arbeitstage (Mo–Fr) → 8,0 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 58,
+  "erreicht": 59,
   "je_tag": 8.0,
-  "offen": 192,
-  "prozent": 23,
+  "offen": 191,
+  "prozent": 24,
   "tage": 24,
-  "text": "58 / 250 — 23 % erreicht",
+  "text": "59 / 250 — 24 % erreicht",
   "vorbei": false
  }
 }
