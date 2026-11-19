@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2010-0179",
+   "daten": [
+    "2026-11-19"
+   ],
+   "datum": "2026-11-19",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pleurothallis tridentata",
+   "scans": 1
+  },
+  {
    "accession": "2010-0188",
    "daten": [
     "2026-11-19"
@@ -776,19 +787,19 @@
    "scans": 1
   }
  ],
- "scans": 71,
- "stand": "2026-11-19T14:19+01:00",
- "stand_text": "19.11.2026 14:19",
+ "scans": 72,
+ "stand": "2026-11-19T14:27+01:00",
+ "stand_text": "19.11.2026 14:27",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "180 offen, 24 Arbeitstage (Mo–Fr) → 7,5 Objekte je Arbeitstag",
+  "bedarf": "179 offen, 24 Arbeitstage (Mo–Fr) → 7,5 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 70,
+  "erreicht": 71,
   "je_tag": 7.5,
-  "offen": 180,
+  "offen": 179,
   "prozent": 28,
   "tage": 24,
-  "text": "70 / 250 — 28 % erreicht",
+  "text": "71 / 250 — 28 % erreicht",
   "vorbei": false
  }
 }
