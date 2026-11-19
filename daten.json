@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1978-1636",
+   "daten": [
+    "2026-11-19"
+   ],
+   "datum": "2026-11-19",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Arpophyllum giganteum",
+   "scans": 1
+  },
+  {
    "accession": "1980-2138",
    "daten": [
     "2026-11-19"
@@ -743,19 +754,19 @@
    "scans": 1
   }
  ],
- "scans": 68,
- "stand": "2026-11-19T12:47+01:00",
- "stand_text": "19.11.2026 12:47",
+ "scans": 69,
+ "stand": "2026-11-19T12:56+01:00",
+ "stand_text": "19.11.2026 12:56",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "183 offen, 24 Arbeitstage (Mo–Fr) → 7,7 Objekte je Arbeitstag",
+  "bedarf": "182 offen, 24 Arbeitstage (Mo–Fr) → 7,6 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 67,
-  "je_tag": 7.7,
-  "offen": 183,
+  "erreicht": 68,
+  "je_tag": 7.6,
+  "offen": 182,
   "prozent": 27,
   "tage": 24,
-  "text": "67 / 250 — 27 % erreicht",
+  "text": "68 / 250 — 27 % erreicht",
   "vorbei": false
  }
 }
