@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1982-2305",
+   "daten": [
+    "2026-11-19"
+   ],
+   "datum": "2026-11-19",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pleurothallis spec.",
+   "scans": 1
+  },
+  {
    "accession": "2003-0005",
    "daten": [
     "2026-11-19"
@@ -688,19 +699,19 @@
    "scans": 1
   }
  ],
- "scans": 63,
- "stand": "2026-11-19T12:03+01:00",
- "stand_text": "19.11.2026 12:03",
+ "scans": 64,
+ "stand": "2026-11-19T12:09+01:00",
+ "stand_text": "19.11.2026 12:09",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "188 offen, 24 Arbeitstage (Mo–Fr) → 7,9 Objekte je Arbeitstag",
+  "bedarf": "187 offen, 24 Arbeitstage (Mo–Fr) → 7,8 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 62,
-  "je_tag": 7.9,
-  "offen": 188,
+  "erreicht": 63,
+  "je_tag": 7.8,
+  "offen": 187,
   "prozent": 25,
   "tage": 24,
-  "text": "62 / 250 — 25 % erreicht",
+  "text": "63 / 250 — 25 % erreicht",
   "vorbei": false
  }
 }
