@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2013-0055",
+   "daten": [
+    "2026-11-19"
+   ],
+   "datum": "2026-11-19",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pleurothallis matudana",
+   "scans": 1
+  },
+  {
    "accession": "2010-0179",
    "daten": [
     "2026-11-19"
@@ -787,19 +798,19 @@
    "scans": 1
   }
  ],
- "scans": 72,
- "stand": "2026-11-19T14:27+01:00",
- "stand_text": "19.11.2026 14:27",
+ "scans": 73,
+ "stand": "2026-11-19T14:40+01:00",
+ "stand_text": "19.11.2026 14:40",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "179 offen, 24 Arbeitstage (Mo–Fr) → 7,5 Objekte je Arbeitstag",
+  "bedarf": "178 offen, 24 Arbeitstage (Mo–Fr) → 7,5 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 71,
+  "erreicht": 72,
   "je_tag": 7.5,
-  "offen": 179,
-  "prozent": 28,
+  "offen": 178,
+  "prozent": 29,
   "tage": 24,
-  "text": "71 / 250 — 28 % erreicht",
+  "text": "72 / 250 — 29 % erreicht",
   "vorbei": false
  }
 }
