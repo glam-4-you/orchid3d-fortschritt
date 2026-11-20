@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2013-0079",
+   "daten": [
+    "2026-11-20"
+   ],
+   "datum": "2026-11-20",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria tonsbergii",
+   "scans": 1
+  },
+  {
    "accession": "1991-0119",
    "daten": [
     "2026-11-20"
@@ -864,19 +875,19 @@
    "scans": 1
   }
  ],
- "scans": 79,
- "stand": "2026-11-20T11:21+01:00",
- "stand_text": "20.11.2026 11:21",
+ "scans": 80,
+ "stand": "2026-11-20T11:32+01:00",
+ "stand_text": "20.11.2026 11:32",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "172 offen, 23 Arbeitstage (Mo–Fr) → 7,5 Objekte je Arbeitstag",
+  "bedarf": "171 offen, 23 Arbeitstage (Mo–Fr) → 7,5 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 78,
+  "erreicht": 79,
   "je_tag": 7.5,
-  "offen": 172,
-  "prozent": 31,
+  "offen": 171,
+  "prozent": 32,
   "tage": 23,
-  "text": "78 / 250 — 31 % erreicht",
+  "text": "79 / 250 — 32 % erreicht",
   "vorbei": false
  }
 }
