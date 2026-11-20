@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1989-0877",
+   "daten": [
+    "2026-11-20"
+   ],
+   "datum": "2026-11-20",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Bulbophyllum fascinator",
+   "scans": 1
+  },
+  {
    "accession": "1987-1216",
    "daten": [
     "2026-11-19"
@@ -820,19 +831,19 @@
    "scans": 1
   }
  ],
- "scans": 75,
- "stand": "2026-11-19T14:56+01:00",
- "stand_text": "19.11.2026 14:56",
+ "scans": 76,
+ "stand": "2026-11-20T10:56+01:00",
+ "stand_text": "20.11.2026 10:56",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "176 offen, 24 Arbeitstage (Mo–Fr) → 7,4 Objekte je Arbeitstag",
+  "bedarf": "175 offen, 23 Arbeitstage (Mo–Fr) → 7,7 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 74,
-  "je_tag": 7.4,
-  "offen": 176,
+  "erreicht": 75,
+  "je_tag": 7.7,
+  "offen": 175,
   "prozent": 30,
-  "tage": 24,
-  "text": "74 / 250 — 30 % erreicht",
+  "tage": 23,
+  "text": "75 / 250 — 30 % erreicht",
   "vorbei": false
  }
 }
