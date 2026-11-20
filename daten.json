@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2020-0019",
+   "daten": [
+    "2026-11-20"
+   ],
+   "datum": "2026-11-20",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria rufescens",
+   "scans": 1
+  },
+  {
    "accession": "1972-1183",
    "daten": [
     "2026-11-20"
@@ -974,19 +985,19 @@
    "scans": 1
   }
  ],
- "scans": 89,
- "stand": "2026-11-20T14:00+01:00",
- "stand_text": "20.11.2026 14:00",
+ "scans": 90,
+ "stand": "2026-11-20T14:07+01:00",
+ "stand_text": "20.11.2026 14:07",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "162 offen, 23 Arbeitstage (Mo–Fr) → 7,1 Objekte je Arbeitstag",
+  "bedarf": "161 offen, 23 Arbeitstage (Mo–Fr) → 7,0 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 88,
-  "je_tag": 7.1,
-  "offen": 162,
-  "prozent": 35,
+  "erreicht": 89,
+  "je_tag": 7.0,
+  "offen": 161,
+  "prozent": 36,
   "tage": 23,
-  "text": "88 / 250 — 35 % erreicht",
+  "text": "89 / 250 — 36 % erreicht",
   "vorbei": false
  }
 }
