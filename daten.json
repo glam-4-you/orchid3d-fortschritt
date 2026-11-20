@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1999-1038",
+   "daten": [
+    "2026-11-20"
+   ],
+   "datum": "2026-11-20",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Angraecum distichum",
+   "scans": 1
+  },
+  {
    "accession": "2010-0147",
    "daten": [
     "2026-11-20"
@@ -908,19 +919,19 @@
    "scans": 1
   }
  ],
- "scans": 83,
- "stand": "2026-11-20T12:26+01:00",
- "stand_text": "20.11.2026 12:26",
+ "scans": 84,
+ "stand": "2026-11-20T13:02+01:00",
+ "stand_text": "20.11.2026 13:02",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "168 offen, 23 Arbeitstage (Mo–Fr) → 7,4 Objekte je Arbeitstag",
+  "bedarf": "167 offen, 23 Arbeitstage (Mo–Fr) → 7,3 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 82,
-  "je_tag": 7.4,
-  "offen": 168,
+  "erreicht": 83,
+  "je_tag": 7.3,
+  "offen": 167,
   "prozent": 33,
   "tage": 23,
-  "text": "82 / 250 — 33 % erreicht",
+  "text": "83 / 250 — 33 % erreicht",
   "vorbei": false
  }
 }
