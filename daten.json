@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1991-0119",
+   "daten": [
+    "2026-11-20"
+   ],
+   "datum": "2026-11-20",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Trichotosia ferox",
+   "scans": 1
+  },
+  {
    "accession": "2010-0120",
    "daten": [
     "2026-11-20"
@@ -853,19 +864,19 @@
    "scans": 1
   }
  ],
- "scans": 78,
- "stand": "2026-11-20T11:12+01:00",
- "stand_text": "20.11.2026 11:12",
+ "scans": 79,
+ "stand": "2026-11-20T11:21+01:00",
+ "stand_text": "20.11.2026 11:21",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "173 offen, 23 Arbeitstage (Mo–Fr) → 7,6 Objekte je Arbeitstag",
+  "bedarf": "172 offen, 23 Arbeitstage (Mo–Fr) → 7,5 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 77,
-  "je_tag": 7.6,
-  "offen": 173,
+  "erreicht": 78,
+  "je_tag": 7.5,
+  "offen": 172,
   "prozent": 31,
   "tage": 23,
-  "text": "77 / 250 — 31 % erreicht",
+  "text": "78 / 250 — 31 % erreicht",
   "vorbei": false
  }
 }
