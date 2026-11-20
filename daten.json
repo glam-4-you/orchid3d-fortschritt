@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2010-0120",
+   "daten": [
+    "2026-11-20"
+   ],
+   "datum": "2026-11-20",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Isabelia pulchella",
+   "scans": 1
+  },
+  {
    "accession": "1987-1041",
    "daten": [
     "2026-11-20"
@@ -842,19 +853,19 @@
    "scans": 1
   }
  ],
- "scans": 77,
- "stand": "2026-11-20T11:03+01:00",
- "stand_text": "20.11.2026 11:03",
+ "scans": 78,
+ "stand": "2026-11-20T11:12+01:00",
+ "stand_text": "20.11.2026 11:12",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "174 offen, 23 Arbeitstage (Mo–Fr) → 7,6 Objekte je Arbeitstag",
+  "bedarf": "173 offen, 23 Arbeitstage (Mo–Fr) → 7,6 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 76,
+  "erreicht": 77,
   "je_tag": 7.6,
-  "offen": 174,
-  "prozent": 30,
+  "offen": 173,
+  "prozent": 31,
   "tage": 23,
-  "text": "76 / 250 — 30 % erreicht",
+  "text": "77 / 250 — 31 % erreicht",
   "vorbei": false
  }
 }
