@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2010-0190",
+   "daten": [
+    "2026-11-20"
+   ],
+   "datum": "2026-11-20",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Bulbophyllum imbricatum",
+   "scans": 1
+  },
+  {
    "accession": "1979-0147",
    "daten": [
     "2026-11-20"
@@ -952,19 +963,19 @@
    "scans": 1
   }
  ],
- "scans": 87,
- "stand": "2026-11-20T13:42+01:00",
- "stand_text": "20.11.2026 13:42",
+ "scans": 88,
+ "stand": "2026-11-20T13:51+01:00",
+ "stand_text": "20.11.2026 13:51",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "164 offen, 23 Arbeitstage (Mo–Fr) → 7,2 Objekte je Arbeitstag",
+  "bedarf": "163 offen, 23 Arbeitstage (Mo–Fr) → 7,1 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 86,
-  "je_tag": 7.2,
-  "offen": 164,
-  "prozent": 34,
+  "erreicht": 87,
+  "je_tag": 7.1,
+  "offen": 163,
+  "prozent": 35,
   "tage": 23,
-  "text": "86 / 250 — 34 % erreicht",
+  "text": "87 / 250 — 35 % erreicht",
   "vorbei": false
  }
 }
