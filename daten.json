@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1987-1041",
+   "daten": [
+    "2026-11-20"
+   ],
+   "datum": "2026-11-20",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Adenoncos parviflora",
+   "scans": 1
+  },
+  {
    "accession": "1989-0877",
    "daten": [
     "2026-11-20"
@@ -831,19 +842,19 @@
    "scans": 1
   }
  ],
- "scans": 76,
- "stand": "2026-11-20T10:56+01:00",
- "stand_text": "20.11.2026 10:56",
+ "scans": 77,
+ "stand": "2026-11-20T11:03+01:00",
+ "stand_text": "20.11.2026 11:03",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "175 offen, 23 Arbeitstage (Mo–Fr) → 7,7 Objekte je Arbeitstag",
+  "bedarf": "174 offen, 23 Arbeitstage (Mo–Fr) → 7,6 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 75,
-  "je_tag": 7.7,
-  "offen": 175,
+  "erreicht": 76,
+  "je_tag": 7.6,
+  "offen": 174,
   "prozent": 30,
   "tage": 23,
-  "text": "75 / 250 — 30 % erreicht",
+  "text": "76 / 250 — 30 % erreicht",
   "vorbei": false
  }
 }
