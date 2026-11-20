@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1979-0147",
+   "daten": [
+    "2026-11-20"
+   ],
+   "datum": "2026-11-20",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pelatantheria insectifera",
+   "scans": 1
+  },
+  {
    "accession": "1978-2054",
    "daten": [
     "2026-11-20"
@@ -941,19 +952,19 @@
    "scans": 1
   }
  ],
- "scans": 86,
- "stand": "2026-11-20T13:33+01:00",
- "stand_text": "20.11.2026 13:33",
+ "scans": 87,
+ "stand": "2026-11-20T13:42+01:00",
+ "stand_text": "20.11.2026 13:42",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "165 offen, 23 Arbeitstage (Mo–Fr) → 7,2 Objekte je Arbeitstag",
+  "bedarf": "164 offen, 23 Arbeitstage (Mo–Fr) → 7,2 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 85,
+  "erreicht": 86,
   "je_tag": 7.2,
-  "offen": 165,
+  "offen": 164,
   "prozent": 34,
   "tage": 23,
-  "text": "85 / 250 — 34 % erreicht",
+  "text": "86 / 250 — 34 % erreicht",
   "vorbei": false
  }
 }
