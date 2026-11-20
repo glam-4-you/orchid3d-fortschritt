@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1979-2802",
+   "daten": [
+    "2026-11-20"
+   ],
+   "datum": "2026-11-20",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Bulbophyllum macrocoleum",
+   "scans": 1
+  },
+  {
    "accession": "2020-0019",
    "daten": [
     "2026-11-20"
@@ -985,19 +996,19 @@
    "scans": 1
   }
  ],
- "scans": 90,
- "stand": "2026-11-20T14:07+01:00",
- "stand_text": "20.11.2026 14:07",
+ "scans": 91,
+ "stand": "2026-11-20T14:18+01:00",
+ "stand_text": "20.11.2026 14:18",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "161 offen, 23 Arbeitstage (Mo–Fr) → 7,0 Objekte je Arbeitstag",
+  "bedarf": "160 offen, 23 Arbeitstage (Mo–Fr) → 7,0 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 89,
+  "erreicht": 90,
   "je_tag": 7.0,
-  "offen": 161,
+  "offen": 160,
   "prozent": 36,
   "tage": 23,
-  "text": "89 / 250 — 36 % erreicht",
+  "text": "90 / 250 — 36 % erreicht",
   "vorbei": false
  }
 }
