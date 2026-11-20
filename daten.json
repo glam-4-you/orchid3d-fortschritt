@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1972-1183",
+   "daten": [
+    "2026-11-20"
+   ],
+   "datum": "2026-11-20",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Phalaenopsis fasciata",
+   "scans": 1
+  },
+  {
    "accession": "2010-0190",
    "daten": [
     "2026-11-20"
@@ -963,19 +974,19 @@
    "scans": 1
   }
  ],
- "scans": 88,
- "stand": "2026-11-20T13:51+01:00",
- "stand_text": "20.11.2026 13:51",
+ "scans": 89,
+ "stand": "2026-11-20T14:00+01:00",
+ "stand_text": "20.11.2026 14:00",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "163 offen, 23 Arbeitstage (Mo–Fr) → 7,1 Objekte je Arbeitstag",
+  "bedarf": "162 offen, 23 Arbeitstage (Mo–Fr) → 7,1 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 87,
+  "erreicht": 88,
   "je_tag": 7.1,
-  "offen": 163,
+  "offen": 162,
   "prozent": 35,
   "tage": 23,
-  "text": "87 / 250 — 35 % erreicht",
+  "text": "88 / 250 — 35 % erreicht",
   "vorbei": false
  }
 }
