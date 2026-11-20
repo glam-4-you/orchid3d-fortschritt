@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1979-1141",
+   "daten": [
+    "2026-11-20"
+   ],
+   "datum": "2026-11-20",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Coelogyne ovalis",
+   "scans": 1
+  },
+  {
    "accession": "1987-1068",
    "daten": [
     "2026-11-20"
@@ -886,19 +897,19 @@
    "scans": 1
   }
  ],
- "scans": 81,
- "stand": "2026-11-20T11:41+01:00",
- "stand_text": "20.11.2026 11:41",
+ "scans": 82,
+ "stand": "2026-11-20T11:57+01:00",
+ "stand_text": "20.11.2026 11:57",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "170 offen, 23 Arbeitstage (Mo–Fr) → 7,4 Objekte je Arbeitstag",
+  "bedarf": "169 offen, 23 Arbeitstage (Mo–Fr) → 7,4 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 80,
+  "erreicht": 81,
   "je_tag": 7.4,
-  "offen": 170,
+  "offen": 169,
   "prozent": 32,
   "tage": 23,
-  "text": "80 / 250 — 32 % erreicht",
+  "text": "81 / 250 — 32 % erreicht",
   "vorbei": false
  }
 }
