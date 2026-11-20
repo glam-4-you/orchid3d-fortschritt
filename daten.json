@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1999-1140",
+   "daten": [
+    "2026-11-20"
+   ],
+   "datum": "2026-11-20",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Coelogyne fimbriata",
+   "scans": 1
+  },
+  {
    "accession": "1999-1038",
    "daten": [
     "2026-11-20"
@@ -919,19 +930,19 @@
    "scans": 1
   }
  ],
- "scans": 84,
- "stand": "2026-11-20T13:02+01:00",
- "stand_text": "20.11.2026 13:02",
+ "scans": 85,
+ "stand": "2026-11-20T13:14+01:00",
+ "stand_text": "20.11.2026 13:14",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "167 offen, 23 Arbeitstage (Mo–Fr) → 7,3 Objekte je Arbeitstag",
+  "bedarf": "166 offen, 23 Arbeitstage (Mo–Fr) → 7,3 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 83,
+  "erreicht": 84,
   "je_tag": 7.3,
-  "offen": 167,
-  "prozent": 33,
+  "offen": 166,
+  "prozent": 34,
   "tage": 23,
-  "text": "83 / 250 — 33 % erreicht",
+  "text": "84 / 250 — 34 % erreicht",
   "vorbei": false
  }
 }
