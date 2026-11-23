@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1979-1957",
+   "bild": "bilder/1979-1957.jpg",
+   "daten": [
+    "2026-11-23"
+   ],
+   "datum": "2026-11-23",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Scaphosepalum anchoriferum",
+   "scans": 1
+  },
+  {
    "accession": "2001-0397",
    "bild": "bilder/2001-0397.jpg",
    "daten": [
@@ -1066,19 +1078,19 @@
    "scans": 1
   }
  ],
- "scans": 94,
- "stand": "2026-11-23T13:02+01:00",
- "stand_text": "23.11.2026 13:02",
+ "scans": 95,
+ "stand": "2026-11-23T13:12+01:00",
+ "stand_text": "23.11.2026 13:12",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "157 offen, 22 Arbeitstage (Mo–Fr) → 7,2 Objekte je Arbeitstag",
+  "bedarf": "156 offen, 22 Arbeitstage (Mo–Fr) → 7,1 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 93,
-  "je_tag": 7.2,
-  "offen": 157,
-  "prozent": 37,
+  "erreicht": 94,
+  "je_tag": 7.1,
+  "offen": 156,
+  "prozent": 38,
   "tage": 22,
-  "text": "93 / 250 — 37 % erreicht",
+  "text": "94 / 250 — 38 % erreicht",
   "vorbei": false
  }
 }
