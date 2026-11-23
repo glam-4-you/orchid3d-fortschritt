@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1982-1364",
+   "bild": "bilder/1982-1364.jpg",
+   "daten": [
+    "2026-11-23"
+   ],
+   "datum": "2026-11-23",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Scaphyglottis prolifera",
+   "scans": 1
+  },
+  {
    "accession": "1979-1957",
    "bild": "bilder/1979-1957.jpg",
    "daten": [
@@ -38,6 +50,18 @@
    "in_liste": true,
    "mehrfach": false,
    "name": "Porroglossum echidna",
+   "scans": 1
+  },
+  {
+   "accession": "2011-0004",
+   "bild": "bilder/2011-0004.jpg",
+   "daten": [
+    "2026-11-23"
+   ],
+   "datum": "2026-11-23",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Scaphosepalum spec.",
    "scans": 1
   },
   {
@@ -1078,19 +1102,19 @@
    "scans": 1
   }
  ],
- "scans": 95,
- "stand": "2026-11-23T13:12+01:00",
- "stand_text": "23.11.2026 13:12",
+ "scans": 97,
+ "stand": "2026-11-23T14:09+01:00",
+ "stand_text": "23.11.2026 14:09",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "156 offen, 22 Arbeitstage (Mo–Fr) → 7,1 Objekte je Arbeitstag",
+  "bedarf": "154 offen, 22 Arbeitstage (Mo–Fr) → 7,0 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 94,
-  "je_tag": 7.1,
-  "offen": 156,
+  "erreicht": 96,
+  "je_tag": 7.0,
+  "offen": 154,
   "prozent": 38,
   "tage": 22,
-  "text": "94 / 250 — 38 % erreicht",
+  "text": "96 / 250 — 38 % erreicht",
   "vorbei": false
  }
 }
