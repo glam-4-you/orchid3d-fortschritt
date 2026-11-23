@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "2010-0084",
+   "bild": "bilder/2010-0084.jpg",
+   "daten": [
+    "2026-11-23"
+   ],
+   "datum": "2026-11-23",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Porroglossum echidna",
+   "scans": 1
+  },
+  {
    "accession": "1977-0831",
    "bild": "bilder/1977-0831.jpg",
    "daten": [
@@ -1042,19 +1054,19 @@
    "scans": 1
   }
  ],
- "scans": 92,
- "stand": "2026-11-23T11:22+01:00",
- "stand_text": "23.11.2026 11:22",
+ "scans": 93,
+ "stand": "2026-11-23T12:52+01:00",
+ "stand_text": "23.11.2026 12:52",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "159 offen, 22 Arbeitstage (Mo–Fr) → 7,3 Objekte je Arbeitstag",
+  "bedarf": "158 offen, 22 Arbeitstage (Mo–Fr) → 7,2 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 91,
-  "je_tag": 7.3,
-  "offen": 159,
-  "prozent": 36,
+  "erreicht": 92,
+  "je_tag": 7.2,
+  "offen": 158,
+  "prozent": 37,
   "tage": 22,
-  "text": "91 / 250 — 36 % erreicht",
+  "text": "92 / 250 — 37 % erreicht",
   "vorbei": false
  }
 }
