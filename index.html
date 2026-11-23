@@ -30,6 +30,17 @@
   li.mehrfach { border-left: 6px solid #d98a00; }
   li.mehrfach .tag { color: #8a5a00; }
   li.fremd .name { font-style: normal; color: #8a5a00; }
+  /* Vorschaubild (18.11.): nur wenn die Daten Bilder tragen; ohne Bild ein Platzhalter gleicher Größe.
+     Zeile = Kachel (56 px) + 2 × 4 px Rand = 64 px, so hoch wie die Zeilen ohne Bild. Zwei Textzeilen:
+     Nummer + Name in EINER Zeile (zu lange Namen enden auf „…“), darunter das Datum. */
+  ul.mit-bild li { display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; padding: 4px 8px 4px 4px; }
+  ul.mit-bild li.leer { display: block; padding: 12px 4px; }
+  ul.mit-bild li .bild { margin-right: 10px; }
+  ul.mit-bild li .nr { margin-right: 8px; }
+  ul.mit-bild li .kopf, ul.mit-bild li .tag { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  li .bild { -webkit-flex: none; flex: none; width: 56px; height: 56px; margin-right: 12px; border-radius: 8px; background: #e6ece8; overflow: hidden; }
+  li .bild img { display: block; width: 56px; height: 56px; object-fit: cover; border-radius: 8px; }
+  li .text { -webkit-flex: 1; flex: 1; min-width: 0; }
   .leer { color: #5d6b63; padding: 12px 4px; }
 </style>
 </head>
@@ -85,10 +96,11 @@
   function malen() {
     if (!D) return;
     var q = el('suche').value.replace(/^\s+|\s+$/g, '').toLowerCase();
-    var liste = [], i, o, li, a, b, c, ul = el('liste');
+    var liste = [], i, o, li, a, b, c, k, t, ul = el('liste');
     for (i = 0; i < D.objekte.length; i++) if (passt(D.objekte[i], q)) liste.push(D.objekte[i]);
     liste.sort(vergleich(el('sort').value));
     while (ul.firstChild) ul.removeChild(ul.firstChild);
+    ul.className = D.mitBild ? 'mit-bild' : '';
     for (i = 0; i < liste.length; i++) {
       o = liste[i];
       li = document.createElement('li');
@@ -98,8 +110,15 @@
       b = document.createElement('span'); b.className = 'name';
       text(b, o.name || (o.in_liste === false ? 'nicht in der Pflanzenliste' : ''));
       c = document.createElement('span'); c.className = 'tag';
-      text(c, o.mehrfach ? o.scans + '× gescannt: ' + tage(o.daten) : 'gescannt am ' + tag(o.datum));
-      li.appendChild(a); li.appendChild(b); li.appendChild(c);
+      // mit Bild bleibt es bei zwei Textzeilen: mehrere Scan-Tage als „zuletzt …“ statt als Liste
+      text(c, !o.mehrfach ? 'gescannt am ' + tag(o.datum)
+        : D.mitBild ? o.scans + '× gescannt, zuletzt ' + tag(letzter(o)) : o.scans + '× gescannt: ' + tage(o.daten));
+      k = document.createElement('div'); k.className = 'kopf';
+      k.appendChild(a); k.appendChild(b);
+      t = document.createElement('div'); t.className = 'text';
+      t.appendChild(k); t.appendChild(c);
+      if (D.mitBild) li.appendChild(bild(o));
+      li.appendChild(t);
       ul.appendChild(li);
     }
     if (!liste.length) {
@@ -110,13 +129,35 @@
     }
     text(el('anzahl'), q ? liste.length + ' von ' + D.objekte.length + ' gescannten Objekten' : D.objekte.length + ' gescannte Objekte');
   }
+  function bild(o) {              // Rahmen = Platzhalter; das Bild nur mit erlaubtem Namen
+    var r = document.createElement('span'), img;
+    r.className = 'bild';
+    if (typeof o.bild === 'string' && /^bilder\/[0-9]{4}-[0-9]{4}\.jpg$/.test(o.bild)) {
+      img = document.createElement('img');
+      img.alt = '';
+      img.width = 56; img.height = 56;
+      img.setAttribute('loading', 'lazy');
+      img.onerror = function () { if (this.parentNode) this.parentNode.removeChild(this); };
+      img.src = o.bild;
+      r.appendChild(img);
+    }
+    return r;
+  }
+  function letzter(o) {           // jüngster Scan-Tag (ISO-Datum sortiert als Text)
+    var aus = o.datum || '', i;
+    for (i = 0; i < (o.daten || []).length; i++) if (o.daten[i] > aus) aus = o.daten[i];
+    return aus;
+  }
   function tage(daten) {
     var aus = [], i;
     for (i = 0; i < (daten || []).length; i++) aus.push(tag(daten[i]));
     return aus.join(', ');
   }
   function zeigen(d) {
+    var i;
     D = d;
+    D.mitBild = false;
+    for (i = 0; i < d.objekte.length; i++) if (d.objekte[i].bild) D.mitBild = true;
     text(el('stand'), 'Stand: ' + d.stand_text);
     text(el('ziel-text'), d.ziel.text);
     text(el('bedarf'), d.ziel.bedarf);

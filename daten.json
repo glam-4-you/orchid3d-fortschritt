@@ -5,7 +5,20 @@
  ],
  "objekte": [
   {
+   "accession": "1977-0831",
+   "bild": "bilder/1977-0831.jpg",
+   "daten": [
+    "2026-11-23"
+   ],
+   "datum": "2026-11-23",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Epidendrum ciliare",
+   "scans": 1
+  },
+  {
    "accession": "1979-2802",
+   "bild": "bilder/1979-2802.jpg",
    "daten": [
     "2026-11-20"
    ],
@@ -17,6 +30,7 @@
   },
   {
    "accession": "2020-0019",
+   "bild": "bilder/2020-0019.jpg",
    "daten": [
     "2026-11-20"
    ],
@@ -28,6 +42,7 @@
   },
   {
    "accession": "1972-1183",
+   "bild": "bilder/1972-1183.jpg",
    "daten": [
     "2026-11-20"
    ],
@@ -39,6 +54,7 @@
   },
   {
    "accession": "2010-0190",
+   "bild": "bilder/2010-0190.jpg",
    "daten": [
     "2026-11-20"
    ],
@@ -50,6 +66,7 @@
   },
   {
    "accession": "1979-0147",
+   "bild": "bilder/1979-0147.jpg",
    "daten": [
     "2026-11-20"
    ],
@@ -61,6 +78,7 @@
   },
   {
    "accession": "1978-2054",
+   "bild": "bilder/1978-2054.jpg",
    "daten": [
     "2026-11-20"
    ],
@@ -72,6 +90,7 @@
   },
   {
    "accession": "1999-1140",
+   "bild": "bilder/1999-1140.jpg",
    "daten": [
     "2026-11-20"
    ],
@@ -83,6 +102,7 @@
   },
   {
    "accession": "1999-1038",
+   "bild": "bilder/1999-1038.jpg",
    "daten": [
     "2026-11-20"
    ],
@@ -94,6 +114,7 @@
   },
   {
    "accession": "2010-0147",
+   "bild": "bilder/2010-0147.jpg",
    "daten": [
     "2026-11-20"
    ],
@@ -105,6 +126,7 @@
   },
   {
    "accession": "1979-1141",
+   "bild": "bilder/1979-1141.jpg",
    "daten": [
     "2026-11-20"
    ],
@@ -116,6 +138,7 @@
   },
   {
    "accession": "1987-1068",
+   "bild": "bilder/1987-1068.jpg",
    "daten": [
     "2026-11-20"
    ],
@@ -127,6 +150,7 @@
   },
   {
    "accession": "2013-0079",
+   "bild": "bilder/2013-0079.jpg",
    "daten": [
     "2026-11-20"
    ],
@@ -138,6 +162,7 @@
   },
   {
    "accession": "1991-0119",
+   "bild": "bilder/1991-0119.jpg",
    "daten": [
     "2026-11-20"
    ],
@@ -149,6 +174,7 @@
   },
   {
    "accession": "2010-0120",
+   "bild": "bilder/2010-0120.jpg",
    "daten": [
     "2026-11-20"
    ],
@@ -160,6 +186,7 @@
   },
   {
    "accession": "1987-1041",
+   "bild": "bilder/1987-1041.jpg",
    "daten": [
     "2026-11-20"
    ],
@@ -171,6 +198,7 @@
   },
   {
    "accession": "1989-0877",
+   "bild": "bilder/1989-0877.jpg",
    "daten": [
     "2026-11-20"
    ],
@@ -182,6 +210,7 @@
   },
   {
    "accession": "1987-1216",
+   "bild": "bilder/1987-1216.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -193,6 +222,7 @@
   },
   {
    "accession": "2003-0079",
+   "bild": "bilder/2003-0079.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -204,6 +234,7 @@
   },
   {
    "accession": "2013-0055",
+   "bild": "bilder/2013-0055.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -215,6 +246,7 @@
   },
   {
    "accession": "2010-0179",
+   "bild": "bilder/2010-0179.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -226,6 +258,7 @@
   },
   {
    "accession": "2010-0188",
+   "bild": "bilder/2010-0188.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -237,6 +270,7 @@
   },
   {
    "accession": "2003-0087",
+   "bild": "bilder/2003-0087.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -248,6 +282,7 @@
   },
   {
    "accession": "1978-1636",
+   "bild": "bilder/1978-1636.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -259,6 +294,7 @@
   },
   {
    "accession": "1980-2138",
+   "bild": "bilder/1980-2138.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -270,6 +306,7 @@
   },
   {
    "accession": "2001-0122",
+   "bild": "bilder/2001-0122.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -281,6 +318,7 @@
   },
   {
    "accession": "1982-2163",
+   "bild": "bilder/1982-2163.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -292,6 +330,7 @@
   },
   {
    "accession": "2016-0185",
+   "bild": "bilder/2016-0185.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -303,6 +342,7 @@
   },
   {
    "accession": "1982-2305",
+   "bild": "bilder/1982-2305.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -314,6 +354,7 @@
   },
   {
    "accession": "2003-0005",
+   "bild": "bilder/2003-0005.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -325,6 +366,7 @@
   },
   {
    "accession": "2021-0107",
+   "bild": "bilder/2021-0107.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -336,6 +378,7 @@
   },
   {
    "accession": "1978-2039",
+   "bild": "bilder/1978-2039.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -347,6 +390,7 @@
   },
   {
    "accession": "2021-0108",
+   "bild": "bilder/2021-0108.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -358,6 +402,7 @@
   },
   {
    "accession": "1981-1763",
+   "bild": "bilder/1981-1763.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -369,6 +414,7 @@
   },
   {
    "accession": "2021-0097",
+   "bild": "bilder/2021-0097.jpg",
    "daten": [
     "2026-11-19"
    ],
@@ -996,19 +1042,19 @@
    "scans": 1
   }
  ],
- "scans": 91,
- "stand": "2026-11-20T14:18+01:00",
- "stand_text": "20.11.2026 14:18",
+ "scans": 92,
+ "stand": "2026-11-23T11:22+01:00",
+ "stand_text": "23.11.2026 11:22",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "160 offen, 23 Arbeitstage (Mo–Fr) → 7,0 Objekte je Arbeitstag",
+  "bedarf": "159 offen, 22 Arbeitstage (Mo–Fr) → 7,3 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 90,
-  "je_tag": 7.0,
-  "offen": 160,
+  "erreicht": 91,
+  "je_tag": 7.3,
+  "offen": 159,
   "prozent": 36,
-  "tage": 23,
-  "text": "90 / 250 — 36 % erreicht",
+  "tage": 22,
+  "text": "91 / 250 — 36 % erreicht",
   "vorbei": false
  }
 }
