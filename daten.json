@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "2013-0062",
+   "bild": "bilder/2013-0062.jpg",
+   "daten": [
+    "2026-11-24"
+   ],
+   "datum": "2026-11-24",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria pseudoreichenheimiana",
+   "scans": 1
+  },
+  {
    "accession": "1987-1087",
    "bild": "bilder/1987-1087.jpg",
    "daten": [
@@ -1198,19 +1210,19 @@
    "scans": 1
   }
  ],
- "scans": 105,
- "stand": "2026-11-24T14:14+01:00",
- "stand_text": "24.11.2026 14:14",
+ "scans": 106,
+ "stand": "2026-11-24T14:22+01:00",
+ "stand_text": "24.11.2026 14:22",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "146 offen, 21 Arbeitstage (Mo–Fr) → 7,0 Objekte je Arbeitstag",
+  "bedarf": "145 offen, 21 Arbeitstage (Mo–Fr) → 7,0 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 104,
+  "erreicht": 105,
   "je_tag": 7.0,
-  "offen": 146,
+  "offen": 145,
   "prozent": 42,
   "tage": 21,
-  "text": "104 / 250 — 42 % erreicht",
+  "text": "105 / 250 — 42 % erreicht",
   "vorbei": false
  }
 }
