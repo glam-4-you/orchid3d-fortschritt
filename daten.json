@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1982-2155",
+   "bild": "bilder/1982-2155.jpg",
+   "daten": [
+    "2026-11-24"
+   ],
+   "datum": "2026-11-24",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Pabstiella tripterantha",
+   "scans": 1
+  },
+  {
    "accession": "1981-1767",
    "bild": "bilder/1981-1767.jpg",
    "daten": [
@@ -1234,19 +1246,19 @@
    "scans": 1
   }
  ],
- "scans": 108,
- "stand": "2026-11-24T14:50+01:00",
- "stand_text": "24.11.2026 14:50",
+ "scans": 109,
+ "stand": "2026-11-24T15:05+01:00",
+ "stand_text": "24.11.2026 15:05",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "143 offen, 21 Arbeitstage (Mo–Fr) → 6,9 Objekte je Arbeitstag",
+  "bedarf": "142 offen, 21 Arbeitstage (Mo–Fr) → 6,8 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 107,
-  "je_tag": 6.9,
-  "offen": 143,
+  "erreicht": 108,
+  "je_tag": 6.8,
+  "offen": 142,
   "prozent": 43,
   "tage": 21,
-  "text": "107 / 250 — 43 % erreicht",
+  "text": "108 / 250 — 43 % erreicht",
   "vorbei": false
  }
 }
