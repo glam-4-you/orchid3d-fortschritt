@@ -5,6 +5,30 @@
  ],
  "objekte": [
   {
+   "accession": "1979-1948",
+   "bild": "bilder/1979-1948.jpg",
+   "daten": [
+    "2026-11-24"
+   ],
+   "datum": "2026-11-24",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Prosthechea vespa",
+   "scans": 1
+  },
+  {
+   "accession": "1999-1206",
+   "bild": "bilder/1999-1206.jpg",
+   "daten": [
+    "2026-11-23"
+   ],
+   "datum": "2026-11-23",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Rossioglossum grande",
+   "scans": 1
+  },
+  {
    "accession": "1982-1364",
    "bild": "bilder/1982-1364.jpg",
    "daten": [
@@ -1102,19 +1126,19 @@
    "scans": 1
   }
  ],
- "scans": 97,
- "stand": "2026-11-23T14:09+01:00",
- "stand_text": "23.11.2026 14:09",
+ "scans": 99,
+ "stand": "2026-11-24T12:11+01:00",
+ "stand_text": "24.11.2026 12:11",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "154 offen, 22 Arbeitstage (Mo–Fr) → 7,0 Objekte je Arbeitstag",
+  "bedarf": "152 offen, 21 Arbeitstage (Mo–Fr) → 7,3 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 96,
-  "je_tag": 7.0,
-  "offen": 154,
-  "prozent": 38,
-  "tage": 22,
-  "text": "96 / 250 — 38 % erreicht",
+  "erreicht": 98,
+  "je_tag": 7.3,
+  "offen": 152,
+  "prozent": 39,
+  "tage": 21,
+  "text": "98 / 250 — 39 % erreicht",
   "vorbei": false
  }
 }
