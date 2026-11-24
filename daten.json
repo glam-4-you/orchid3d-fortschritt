@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1981-1358",
+   "bild": "bilder/1981-1358.jpg",
+   "daten": [
+    "2026-11-24"
+   ],
+   "datum": "2026-11-24",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Sudamerlycaste ciliata",
+   "scans": 1
+  },
+  {
    "accession": "2013-0062",
    "bild": "bilder/2013-0062.jpg",
    "daten": [
@@ -1210,19 +1222,19 @@
    "scans": 1
   }
  ],
- "scans": 106,
- "stand": "2026-11-24T14:22+01:00",
- "stand_text": "24.11.2026 14:22",
+ "scans": 107,
+ "stand": "2026-11-24T14:34+01:00",
+ "stand_text": "24.11.2026 14:34",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "145 offen, 21 Arbeitstage (Mo–Fr) → 7,0 Objekte je Arbeitstag",
+  "bedarf": "144 offen, 21 Arbeitstage (Mo–Fr) → 6,9 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 105,
-  "je_tag": 7.0,
-  "offen": 145,
+  "erreicht": 106,
+  "je_tag": 6.9,
+  "offen": 144,
   "prozent": 42,
   "tage": 21,
-  "text": "105 / 250 — 42 % erreicht",
+  "text": "106 / 250 — 42 % erreicht",
   "vorbei": false
  }
 }
