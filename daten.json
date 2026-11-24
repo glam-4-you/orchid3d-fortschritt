@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2010-0256",
+   "daten": [
+    "2026-11-24"
+   ],
+   "datum": "2026-11-24",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Stelis lindenii",
+   "scans": 1
+  },
+  {
    "accession": "1982-0923",
    "bild": "bilder/1982-0923.jpg",
    "daten": [
@@ -1258,19 +1269,19 @@
    "scans": 1
   }
  ],
- "scans": 110,
- "stand": "2026-11-24T15:29+01:00",
- "stand_text": "24.11.2026 15:29",
+ "scans": 111,
+ "stand": "2026-11-24T15:35+01:00",
+ "stand_text": "24.11.2026 15:35",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "141 offen, 21 Arbeitstage (Mo–Fr) → 6,8 Objekte je Arbeitstag",
+  "bedarf": "140 offen, 21 Arbeitstage (Mo–Fr) → 6,7 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 109,
-  "je_tag": 6.8,
-  "offen": 141,
+  "erreicht": 110,
+  "je_tag": 6.7,
+  "offen": 140,
   "prozent": 44,
   "tage": 21,
-  "text": "109 / 250 — 44 % erreicht",
+  "text": "110 / 250 — 44 % erreicht",
   "vorbei": false
  }
 }
