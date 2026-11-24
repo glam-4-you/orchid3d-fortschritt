@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1987-1087",
+   "bild": "bilder/1987-1087.jpg",
+   "daten": [
+    "2026-11-24"
+   ],
+   "datum": "2026-11-24",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Coelogyne trinervis",
+   "scans": 1
+  },
+  {
    "accession": "1988-0767",
    "bild": "bilder/1988-0767.jpg",
    "daten": [
@@ -1186,19 +1198,19 @@
    "scans": 1
   }
  ],
- "scans": 104,
- "stand": "2026-11-24T13:59+01:00",
- "stand_text": "24.11.2026 13:59",
+ "scans": 105,
+ "stand": "2026-11-24T14:14+01:00",
+ "stand_text": "24.11.2026 14:14",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "147 offen, 21 Arbeitstage (Mo–Fr) → 7,0 Objekte je Arbeitstag",
+  "bedarf": "146 offen, 21 Arbeitstage (Mo–Fr) → 7,0 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 103,
+  "erreicht": 104,
   "je_tag": 7.0,
-  "offen": 147,
-  "prozent": 41,
+  "offen": 146,
+  "prozent": 42,
   "tage": 21,
-  "text": "103 / 250 — 41 % erreicht",
+  "text": "104 / 250 — 42 % erreicht",
   "vorbei": false
  }
 }
