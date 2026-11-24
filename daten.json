@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1983-0029",
+   "bild": "bilder/1983-0029.jpg",
+   "daten": [
+    "2026-11-24"
+   ],
+   "datum": "2026-11-24",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Coelogyne rumphii",
+   "scans": 1
+  },
+  {
    "accession": "1982-0684",
    "bild": "bilder/1982-0684.jpg",
    "daten": [
@@ -1162,19 +1174,19 @@
    "scans": 1
   }
  ],
- "scans": 102,
- "stand": "2026-11-24T13:07+01:00",
- "stand_text": "24.11.2026 13:07",
+ "scans": 103,
+ "stand": "2026-11-24T13:49+01:00",
+ "stand_text": "24.11.2026 13:49",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "149 offen, 21 Arbeitstage (Mo–Fr) → 7,1 Objekte je Arbeitstag",
+  "bedarf": "148 offen, 21 Arbeitstage (Mo–Fr) → 7,1 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 101,
+  "erreicht": 102,
   "je_tag": 7.1,
-  "offen": 149,
-  "prozent": 40,
+  "offen": 148,
+  "prozent": 41,
   "tage": 21,
-  "text": "101 / 250 — 40 % erreicht",
+  "text": "102 / 250 — 41 % erreicht",
   "vorbei": false
  }
 }
