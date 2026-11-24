@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1988-0767",
+   "bild": "bilder/1988-0767.jpg",
+   "daten": [
+    "2026-11-24"
+   ],
+   "datum": "2026-11-24",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Neobenthamia gracilis",
+   "scans": 1
+  },
+  {
    "accession": "1983-0029",
    "bild": "bilder/1983-0029.jpg",
    "daten": [
@@ -1174,19 +1186,19 @@
    "scans": 1
   }
  ],
- "scans": 103,
- "stand": "2026-11-24T13:49+01:00",
- "stand_text": "24.11.2026 13:49",
+ "scans": 104,
+ "stand": "2026-11-24T13:59+01:00",
+ "stand_text": "24.11.2026 13:59",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "148 offen, 21 Arbeitstage (Mo–Fr) → 7,1 Objekte je Arbeitstag",
+  "bedarf": "147 offen, 21 Arbeitstage (Mo–Fr) → 7,0 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 102,
-  "je_tag": 7.1,
-  "offen": 148,
+  "erreicht": 103,
+  "je_tag": 7.0,
+  "offen": 147,
   "prozent": 41,
   "tage": 21,
-  "text": "102 / 250 — 41 % erreicht",
+  "text": "103 / 250 — 41 % erreicht",
   "vorbei": false
  }
 }
