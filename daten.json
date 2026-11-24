@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1984-1001",
+   "bild": "bilder/1984-1001.jpg",
+   "daten": [
+    "2026-11-24"
+   ],
+   "datum": "2026-11-24",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Coelogyne rochussenii",
+   "scans": 1
+  },
+  {
    "accession": "1979-1948",
    "bild": "bilder/1979-1948.jpg",
    "daten": [
@@ -1126,19 +1138,19 @@
    "scans": 1
   }
  ],
- "scans": 99,
- "stand": "2026-11-24T12:11+01:00",
- "stand_text": "24.11.2026 12:11",
+ "scans": 100,
+ "stand": "2026-11-24T12:29+01:00",
+ "stand_text": "24.11.2026 12:29",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "152 offen, 21 Arbeitstage (Mo–Fr) → 7,3 Objekte je Arbeitstag",
+  "bedarf": "151 offen, 21 Arbeitstage (Mo–Fr) → 7,2 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 98,
-  "je_tag": 7.3,
-  "offen": 152,
-  "prozent": 39,
+  "erreicht": 99,
+  "je_tag": 7.2,
+  "offen": 151,
+  "prozent": 40,
   "tage": 21,
-  "text": "98 / 250 — 39 % erreicht",
+  "text": "99 / 250 — 40 % erreicht",
   "vorbei": false
  }
 }
