@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1981-0179",
+   "bild": "bilder/1981-0179.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Isochilus linearis",
+   "scans": 1
+  },
+  {
    "accession": "1988-0782",
    "bild": "bilder/1988-0782.jpg",
    "daten": [
@@ -1318,19 +1330,19 @@
    "scans": 1
   }
  ],
- "scans": 115,
- "stand": "2026-11-26T10:48+01:00",
- "stand_text": "26.11.2026 10:48",
+ "scans": 116,
+ "stand": "2026-11-26T11:11+01:00",
+ "stand_text": "26.11.2026 11:11",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "136 offen, 19 Arbeitstage (Mo–Fr) → 7,2 Objekte je Arbeitstag",
+  "bedarf": "135 offen, 19 Arbeitstage (Mo–Fr) → 7,2 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 114,
+  "erreicht": 115,
   "je_tag": 7.2,
-  "offen": 136,
+  "offen": 135,
   "prozent": 46,
   "tage": 19,
-  "text": "114 / 250 — 46 % erreicht",
+  "text": "115 / 250 — 46 % erreicht",
   "vorbei": false
  }
 }
