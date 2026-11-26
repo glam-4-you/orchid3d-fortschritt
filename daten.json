@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2010-0264",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Anathallis barbulata",
+   "scans": 1
+  },
+  {
    "accession": "2010-0011",
    "bild": "bilder/2010-0011.jpg",
    "daten": [
@@ -1486,19 +1497,19 @@
    "scans": 1
   }
  ],
- "scans": 129,
- "stand": "2026-11-26T13:44+01:00",
- "stand_text": "26.11.2026 13:44",
+ "scans": 130,
+ "stand": "2026-11-26T13:54+01:00",
+ "stand_text": "26.11.2026 13:54",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "122 offen, 19 Arbeitstage (Mo–Fr) → 6,5 Objekte je Arbeitstag",
+  "bedarf": "121 offen, 19 Arbeitstage (Mo–Fr) → 6,4 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 128,
-  "je_tag": 6.5,
-  "offen": 122,
-  "prozent": 51,
+  "erreicht": 129,
+  "je_tag": 6.4,
+  "offen": 121,
+  "prozent": 52,
   "tage": 19,
-  "text": "128 / 250 — 51 % erreicht",
+  "text": "129 / 250 — 52 % erreicht",
   "vorbei": false
  }
 }
