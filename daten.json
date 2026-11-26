@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1982-1638",
+   "bild": "bilder/1982-1638.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Lycaste dowiana",
+   "scans": 1
+  },
+  {
    "accession": "2010-0181",
    "bild": "bilder/2010-0181.jpg",
    "daten": [
@@ -1666,19 +1678,19 @@
    "scans": 1
   }
  ],
- "scans": 144,
- "stand": "2026-11-26T16:28+01:00",
- "stand_text": "26.11.2026 16:28",
+ "scans": 145,
+ "stand": "2026-11-26T16:34+01:00",
+ "stand_text": "26.11.2026 16:34",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "107 offen, 19 Arbeitstage (Mo–Fr) → 5,7 Objekte je Arbeitstag",
+  "bedarf": "106 offen, 19 Arbeitstage (Mo–Fr) → 5,6 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 143,
-  "je_tag": 5.7,
-  "offen": 107,
-  "prozent": 57,
+  "erreicht": 144,
+  "je_tag": 5.6,
+  "offen": 106,
+  "prozent": 58,
   "tage": 19,
-  "text": "143 / 250 — 57 % erreicht",
+  "text": "144 / 250 — 58 % erreicht",
   "vorbei": false
  }
 }
