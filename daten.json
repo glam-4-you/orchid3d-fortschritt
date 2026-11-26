@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "2022-0016",
+   "bild": "bilder/2022-0016.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Dracula gigas",
+   "scans": 1
+  },
+  {
    "accession": "2001-0417",
    "bild": "bilder/2001-0417.jpg",
    "daten": [
@@ -1354,19 +1366,19 @@
    "scans": 1
   }
  ],
- "scans": 118,
- "stand": "2026-11-26T11:24+01:00",
- "stand_text": "26.11.2026 11:24",
+ "scans": 119,
+ "stand": "2026-11-26T11:30+01:00",
+ "stand_text": "26.11.2026 11:30",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "133 offen, 19 Arbeitstage (Mo–Fr) → 7,0 Objekte je Arbeitstag",
+  "bedarf": "132 offen, 19 Arbeitstage (Mo–Fr) → 7,0 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 117,
+  "erreicht": 118,
   "je_tag": 7.0,
-  "offen": 133,
+  "offen": 132,
   "prozent": 47,
   "tage": 19,
-  "text": "117 / 250 — 47 % erreicht",
+  "text": "118 / 250 — 47 % erreicht",
   "vorbei": false
  }
 }
