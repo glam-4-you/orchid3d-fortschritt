@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1981-2298",
+   "bild": "bilder/1981-2298.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Stelis segoviensis",
+   "scans": 1
+  },
+  {
    "accession": "2021-0105",
    "bild": "bilder/2021-0105.jpg",
    "daten": [
@@ -1438,19 +1450,19 @@
    "scans": 1
   }
  ],
- "scans": 125,
- "stand": "2026-11-26T12:41+01:00",
- "stand_text": "26.11.2026 12:41",
+ "scans": 126,
+ "stand": "2026-11-26T12:48+01:00",
+ "stand_text": "26.11.2026 12:48",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "126 offen, 19 Arbeitstage (Mo–Fr) → 6,7 Objekte je Arbeitstag",
+  "bedarf": "125 offen, 19 Arbeitstage (Mo–Fr) → 6,6 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 124,
-  "je_tag": 6.7,
-  "offen": 126,
+  "erreicht": 125,
+  "je_tag": 6.6,
+  "offen": 125,
   "prozent": 50,
   "tage": 19,
-  "text": "124 / 250 — 50 % erreicht",
+  "text": "125 / 250 — 50 % erreicht",
   "vorbei": false
  }
 }
