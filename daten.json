@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "2010-0181",
+   "bild": "bilder/2010-0181.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Bulbophyllum acutiflorum",
+   "scans": 1
+  },
+  {
    "accession": "2010-0127",
    "bild": "bilder/2010-0127.jpg",
    "daten": [
@@ -1654,19 +1666,19 @@
    "scans": 1
   }
  ],
- "scans": 143,
- "stand": "2026-11-26T16:22+01:00",
- "stand_text": "26.11.2026 16:22",
+ "scans": 144,
+ "stand": "2026-11-26T16:28+01:00",
+ "stand_text": "26.11.2026 16:28",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "108 offen, 19 Arbeitstage (Mo–Fr) → 5,7 Objekte je Arbeitstag",
+  "bedarf": "107 offen, 19 Arbeitstage (Mo–Fr) → 5,7 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 142,
+  "erreicht": 143,
   "je_tag": 5.7,
-  "offen": 108,
+  "offen": 107,
   "prozent": 57,
   "tage": 19,
-  "text": "142 / 250 — 57 % erreicht",
+  "text": "143 / 250 — 57 % erreicht",
   "vorbei": false
  }
 }
