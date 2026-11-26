@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2020-0016",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria elatior",
+   "scans": 1
+  },
+  {
    "accession": "2010-0151",
    "bild": "bilder/2010-0151.jpg",
    "daten": [
@@ -1522,19 +1533,19 @@
    "scans": 1
   }
  ],
- "scans": 132,
- "stand": "2026-11-26T14:05+01:00",
- "stand_text": "26.11.2026 14:05",
+ "scans": 133,
+ "stand": "2026-11-26T14:15+01:00",
+ "stand_text": "26.11.2026 14:15",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "119 offen, 19 Arbeitstage (Mo–Fr) → 6,3 Objekte je Arbeitstag",
+  "bedarf": "118 offen, 19 Arbeitstage (Mo–Fr) → 6,3 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 131,
+  "erreicht": 132,
   "je_tag": 6.3,
-  "offen": 119,
-  "prozent": 52,
+  "offen": 118,
+  "prozent": 53,
   "tage": 19,
-  "text": "131 / 250 — 52 % erreicht",
+  "text": "132 / 250 — 53 % erreicht",
   "vorbei": false
  }
 }
