@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "2010-0127",
+   "bild": "bilder/2010-0127.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria strumata",
+   "scans": 1
+  },
+  {
    "accession": "1982-2261",
    "bild": "bilder/1982-2261.jpg",
    "daten": [
@@ -1642,19 +1654,19 @@
    "scans": 1
   }
  ],
- "scans": 142,
- "stand": "2026-11-26T16:16+01:00",
- "stand_text": "26.11.2026 16:16",
+ "scans": 143,
+ "stand": "2026-11-26T16:22+01:00",
+ "stand_text": "26.11.2026 16:22",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "109 offen, 19 Arbeitstage (Mo–Fr) → 5,8 Objekte je Arbeitstag",
+  "bedarf": "108 offen, 19 Arbeitstage (Mo–Fr) → 5,7 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 141,
-  "je_tag": 5.8,
-  "offen": 109,
-  "prozent": 56,
+  "erreicht": 142,
+  "je_tag": 5.7,
+  "offen": 108,
+  "prozent": 57,
   "tage": 19,
-  "text": "141 / 250 — 56 % erreicht",
+  "text": "142 / 250 — 57 % erreicht",
   "vorbei": false
  }
 }
