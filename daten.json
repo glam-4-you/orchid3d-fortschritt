@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "2014-0126",
+   "bild": "bilder/2014-0126.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria sophronitis",
+   "scans": 1
+  },
+  {
    "accession": "2022-0016",
    "bild": "bilder/2022-0016.jpg",
    "daten": [
@@ -1366,19 +1378,19 @@
    "scans": 1
   }
  ],
- "scans": 119,
- "stand": "2026-11-26T11:30+01:00",
- "stand_text": "26.11.2026 11:30",
+ "scans": 120,
+ "stand": "2026-11-26T11:38+01:00",
+ "stand_text": "26.11.2026 11:38",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "132 offen, 19 Arbeitstage (Mo–Fr) → 7,0 Objekte je Arbeitstag",
+  "bedarf": "131 offen, 19 Arbeitstage (Mo–Fr) → 6,9 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 118,
-  "je_tag": 7.0,
-  "offen": 132,
-  "prozent": 47,
+  "erreicht": 119,
+  "je_tag": 6.9,
+  "offen": 131,
+  "prozent": 48,
   "tage": 19,
-  "text": "118 / 250 — 47 % erreicht",
+  "text": "119 / 250 — 48 % erreicht",
   "vorbei": false
  }
 }
