@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1987-1143",
+   "bild": "bilder/1987-1143.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Trichotosia velutina",
+   "scans": 1
+  },
+  {
    "accession": "1981-2100",
    "bild": "bilder/1981-2100.jpg",
    "daten": [
@@ -1582,19 +1594,19 @@
    "scans": 1
   }
  ],
- "scans": 137,
- "stand": "2026-11-26T15:07+01:00",
- "stand_text": "26.11.2026 15:07",
+ "scans": 138,
+ "stand": "2026-11-26T15:27+01:00",
+ "stand_text": "26.11.2026 15:27",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "114 offen, 19 Arbeitstage (Mo–Fr) → 6,0 Objekte je Arbeitstag",
+  "bedarf": "113 offen, 19 Arbeitstage (Mo–Fr) → 6,0 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 136,
+  "erreicht": 137,
   "je_tag": 6.0,
-  "offen": 114,
-  "prozent": 54,
+  "offen": 113,
+  "prozent": 55,
   "tage": 19,
-  "text": "136 / 250 — 54 % erreicht",
+  "text": "137 / 250 — 55 % erreicht",
   "vorbei": false
  }
 }
