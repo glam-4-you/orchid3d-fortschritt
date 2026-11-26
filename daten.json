@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1979-0140",
+   "bild": "bilder/1979-0140.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Masdevallia bicolor",
+   "scans": 1
+  },
+  {
    "accession": "1988-0901",
    "bild": "bilder/1988-0901.jpg",
    "daten": [
@@ -1414,19 +1426,19 @@
    "scans": 1
   }
  ],
- "scans": 123,
- "stand": "2026-11-26T12:16+01:00",
- "stand_text": "26.11.2026 12:16",
+ "scans": 124,
+ "stand": "2026-11-26T12:35+01:00",
+ "stand_text": "26.11.2026 12:35",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "128 offen, 19 Arbeitstage (Mo–Fr) → 6,8 Objekte je Arbeitstag",
+  "bedarf": "127 offen, 19 Arbeitstage (Mo–Fr) → 6,7 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 122,
-  "je_tag": 6.8,
-  "offen": 128,
+  "erreicht": 123,
+  "je_tag": 6.7,
+  "offen": 127,
   "prozent": 49,
   "tage": 19,
-  "text": "122 / 250 — 49 % erreicht",
+  "text": "123 / 250 — 49 % erreicht",
   "vorbei": false
  }
 }
