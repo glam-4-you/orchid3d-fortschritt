@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1982-2261",
+   "bild": "bilder/1982-2261.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Maxillaria nigrescens",
+   "scans": 1
+  },
+  {
    "accession": "1988-0783",
    "bild": "bilder/1988-0783.jpg",
    "daten": [
@@ -1630,19 +1642,19 @@
    "scans": 1
   }
  ],
- "scans": 141,
- "stand": "2026-11-26T16:10+01:00",
- "stand_text": "26.11.2026 16:10",
+ "scans": 142,
+ "stand": "2026-11-26T16:16+01:00",
+ "stand_text": "26.11.2026 16:16",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "110 offen, 19 Arbeitstage (Mo–Fr) → 5,8 Objekte je Arbeitstag",
+  "bedarf": "109 offen, 19 Arbeitstage (Mo–Fr) → 5,8 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 140,
+  "erreicht": 141,
   "je_tag": 5.8,
-  "offen": 110,
+  "offen": 109,
   "prozent": 56,
   "tage": 19,
-  "text": "140 / 250 — 56 % erreicht",
+  "text": "141 / 250 — 56 % erreicht",
   "vorbei": false
  }
 }
