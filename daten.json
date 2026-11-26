@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1981-2100",
+   "bild": "bilder/1981-2100.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Lockhartia oerstedii",
+   "scans": 1
+  },
+  {
    "accession": "2003-0096",
    "bild": "bilder/2003-0096.jpg",
    "daten": [
@@ -1570,19 +1582,19 @@
    "scans": 1
   }
  ],
- "scans": 136,
- "stand": "2026-11-26T14:59+01:00",
- "stand_text": "26.11.2026 14:59",
+ "scans": 137,
+ "stand": "2026-11-26T15:07+01:00",
+ "stand_text": "26.11.2026 15:07",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "115 offen, 19 Arbeitstage (Mo–Fr) → 6,1 Objekte je Arbeitstag",
+  "bedarf": "114 offen, 19 Arbeitstage (Mo–Fr) → 6,0 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 135,
-  "je_tag": 6.1,
-  "offen": 115,
+  "erreicht": 136,
+  "je_tag": 6.0,
+  "offen": 114,
   "prozent": 54,
   "tage": 19,
-  "text": "135 / 250 — 54 % erreicht",
+  "text": "136 / 250 — 54 % erreicht",
   "vorbei": false
  }
 }
