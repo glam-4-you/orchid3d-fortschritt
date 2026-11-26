@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "2003-0096",
+   "bild": "bilder/2003-0096.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Bulbophyllum apetalum",
+   "scans": 1
+  },
+  {
    "accession": "1989-1005",
    "bild": "bilder/1989-1005.jpg",
    "daten": [
@@ -1558,19 +1570,19 @@
    "scans": 1
   }
  ],
- "scans": 135,
- "stand": "2026-11-26T14:51+01:00",
- "stand_text": "26.11.2026 14:51",
+ "scans": 136,
+ "stand": "2026-11-26T14:59+01:00",
+ "stand_text": "26.11.2026 14:59",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "116 offen, 19 Arbeitstage (Mo–Fr) → 6,2 Objekte je Arbeitstag",
+  "bedarf": "115 offen, 19 Arbeitstage (Mo–Fr) → 6,1 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 134,
-  "je_tag": 6.2,
-  "offen": 116,
+  "erreicht": 135,
+  "je_tag": 6.1,
+  "offen": 115,
   "prozent": 54,
   "tage": 19,
-  "text": "134 / 250 — 54 % erreicht",
+  "text": "135 / 250 — 54 % erreicht",
   "vorbei": false
  }
 }
