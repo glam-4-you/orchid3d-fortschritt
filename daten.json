@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "2009-0032",
+   "bild": "bilder/2009-0032.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Acianthera octophrys",
+   "scans": 1
+  },
+  {
    "accession": "1981-2298",
    "bild": "bilder/1981-2298.jpg",
    "daten": [
@@ -1450,19 +1462,19 @@
    "scans": 1
   }
  ],
- "scans": 126,
- "stand": "2026-11-26T12:48+01:00",
- "stand_text": "26.11.2026 12:48",
+ "scans": 127,
+ "stand": "2026-11-26T12:54+01:00",
+ "stand_text": "26.11.2026 12:54",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "125 offen, 19 Arbeitstage (Mo–Fr) → 6,6 Objekte je Arbeitstag",
+  "bedarf": "124 offen, 19 Arbeitstage (Mo–Fr) → 6,6 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 125,
+  "erreicht": 126,
   "je_tag": 6.6,
-  "offen": 125,
+  "offen": 124,
   "prozent": 50,
   "tage": 19,
-  "text": "125 / 250 — 50 % erreicht",
+  "text": "126 / 250 — 50 % erreicht",
   "vorbei": false
  }
 }
