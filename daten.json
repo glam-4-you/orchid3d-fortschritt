@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "2010-0151",
+   "bild": "bilder/2010-0151.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Platystele orectoglossa",
+   "scans": 1
+  },
+  {
    "accession": "2010-0102",
    "bild": "bilder/2010-0102.jpg",
    "daten": [
@@ -1510,19 +1522,19 @@
    "scans": 1
   }
  ],
- "scans": 131,
+ "scans": 132,
  "stand": "2026-11-26T14:05+01:00",
  "stand_text": "26.11.2026 14:05",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "120 offen, 19 Arbeitstage (Mo–Fr) → 6,4 Objekte je Arbeitstag",
+  "bedarf": "119 offen, 19 Arbeitstage (Mo–Fr) → 6,3 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 130,
-  "je_tag": 6.4,
-  "offen": 120,
+  "erreicht": 131,
+  "je_tag": 6.3,
+  "offen": 119,
   "prozent": 52,
   "tage": 19,
-  "text": "130 / 250 — 52 % erreicht",
+  "text": "131 / 250 — 52 % erreicht",
   "vorbei": false
  }
 }
