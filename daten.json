@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "1979-2800",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Bulbophyllum rufinum",
+   "scans": 1
+  },
+  {
    "accession": "1982-2700",
    "bild": "bilder/1982-2700.jpg",
    "daten": [
@@ -1606,19 +1617,19 @@
    "scans": 1
   }
  ],
- "scans": 139,
- "stand": "2026-11-26T15:42+01:00",
- "stand_text": "26.11.2026 15:42",
+ "scans": 140,
+ "stand": "2026-11-26T15:59+01:00",
+ "stand_text": "26.11.2026 15:59",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "112 offen, 19 Arbeitstage (Mo–Fr) → 5,9 Objekte je Arbeitstag",
+  "bedarf": "111 offen, 19 Arbeitstage (Mo–Fr) → 5,9 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 138,
+  "erreicht": 139,
   "je_tag": 5.9,
-  "offen": 112,
-  "prozent": 55,
+  "offen": 111,
+  "prozent": 56,
   "tage": 19,
-  "text": "138 / 250 — 55 % erreicht",
+  "text": "139 / 250 — 56 % erreicht",
   "vorbei": false
  }
 }
