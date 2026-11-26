@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1989-1005",
+   "bild": "bilder/1989-1005.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Dendrobium lawesii",
+   "scans": 1
+  },
+  {
    "accession": "1989-1035",
    "bild": "bilder/1989-1035.jpg",
    "daten": [
@@ -1546,19 +1558,19 @@
    "scans": 1
   }
  ],
- "scans": 134,
- "stand": "2026-11-26T14:24+01:00",
- "stand_text": "26.11.2026 14:24",
+ "scans": 135,
+ "stand": "2026-11-26T14:51+01:00",
+ "stand_text": "26.11.2026 14:51",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "117 offen, 19 Arbeitstage (Mo–Fr) → 6,2 Objekte je Arbeitstag",
+  "bedarf": "116 offen, 19 Arbeitstage (Mo–Fr) → 6,2 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 133,
+  "erreicht": 134,
   "je_tag": 6.2,
-  "offen": 117,
-  "prozent": 53,
+  "offen": 116,
+  "prozent": 54,
   "tage": 19,
-  "text": "133 / 250 — 53 % erreicht",
+  "text": "134 / 250 — 54 % erreicht",
   "vorbei": false
  }
 }
