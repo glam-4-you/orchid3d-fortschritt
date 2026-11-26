@@ -5,6 +5,17 @@
  ],
  "objekte": [
   {
+   "accession": "2010-0102",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Platystele stenostachya",
+   "scans": 1
+  },
+  {
    "accession": "2010-0264",
    "bild": "bilder/2010-0264.jpg",
    "daten": [
@@ -1498,19 +1509,19 @@
    "scans": 1
   }
  ],
- "scans": 130,
+ "scans": 131,
  "stand": "2026-11-26T13:59+01:00",
  "stand_text": "26.11.2026 13:59",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "121 offen, 19 Arbeitstage (Mo–Fr) → 6,4 Objekte je Arbeitstag",
+  "bedarf": "120 offen, 19 Arbeitstage (Mo–Fr) → 6,4 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 129,
+  "erreicht": 130,
   "je_tag": 6.4,
-  "offen": 121,
+  "offen": 120,
   "prozent": 52,
   "tage": 19,
-  "text": "129 / 250 — 52 % erreicht",
+  "text": "130 / 250 — 52 % erreicht",
   "vorbei": false
  }
 }
