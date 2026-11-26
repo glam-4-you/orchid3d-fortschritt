@@ -6,6 +6,7 @@
  "objekte": [
   {
    "accession": "1979-2800",
+   "bild": "bilder/1979-2800.jpg",
    "daten": [
     "2026-11-26"
    ],
@@ -1618,8 +1619,8 @@
   }
  ],
  "scans": 140,
- "stand": "2026-11-26T15:59+01:00",
- "stand_text": "26.11.2026 15:59",
+ "stand": "2026-11-26T16:00+01:00",
+ "stand_text": "26.11.2026 16:00",
  "ziel": {
   "anzahl": 250,
   "bedarf": "111 offen, 19 Arbeitstage (Mo–Fr) → 5,9 Objekte je Arbeitstag",
