@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1988-0783",
+   "bild": "bilder/1988-0783.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Micropera pallida",
+   "scans": 1
+  },
+  {
    "accession": "1979-2800",
    "bild": "bilder/1979-2800.jpg",
    "daten": [
@@ -1618,19 +1630,19 @@
    "scans": 1
   }
  ],
- "scans": 140,
- "stand": "2026-11-26T16:00+01:00",
- "stand_text": "26.11.2026 16:00",
+ "scans": 141,
+ "stand": "2026-11-26T16:10+01:00",
+ "stand_text": "26.11.2026 16:10",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "111 offen, 19 Arbeitstage (Mo–Fr) → 5,9 Objekte je Arbeitstag",
+  "bedarf": "110 offen, 19 Arbeitstage (Mo–Fr) → 5,8 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 139,
-  "je_tag": 5.9,
-  "offen": 111,
+  "erreicht": 140,
+  "je_tag": 5.8,
+  "offen": 110,
   "prozent": 56,
   "tage": 19,
-  "text": "139 / 250 — 56 % erreicht",
+  "text": "140 / 250 — 56 % erreicht",
   "vorbei": false
  }
 }
