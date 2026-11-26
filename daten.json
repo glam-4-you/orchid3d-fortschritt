@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "2010-0121",
+   "bild": "bilder/2010-0121.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Lepanthes lindleyana",
+   "scans": 1
+  },
+  {
    "accession": "2010-0145",
    "bild": "bilder/2010-0145.jpg",
    "daten": [
@@ -1390,19 +1402,19 @@
    "scans": 1
   }
  ],
- "scans": 121,
- "stand": "2026-11-26T11:50+01:00",
- "stand_text": "26.11.2026 11:50",
+ "scans": 122,
+ "stand": "2026-11-26T12:03+01:00",
+ "stand_text": "26.11.2026 12:03",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "130 offen, 19 Arbeitstage (Mo–Fr) → 6,9 Objekte je Arbeitstag",
+  "bedarf": "129 offen, 19 Arbeitstage (Mo–Fr) → 6,8 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 120,
-  "je_tag": 6.9,
-  "offen": 130,
+  "erreicht": 121,
+  "je_tag": 6.8,
+  "offen": 129,
   "prozent": 48,
   "tage": 19,
-  "text": "120 / 250 — 48 % erreicht",
+  "text": "121 / 250 — 48 % erreicht",
   "vorbei": false
  }
 }
