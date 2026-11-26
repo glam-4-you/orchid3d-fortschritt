@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1987-1190",
+   "bild": "bilder/1987-1190.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Dendrochilum javieriense",
+   "scans": 1
+  },
+  {
    "accession": "2000-0400",
    "bild": "bilder/2000-0400.jpg",
    "daten": [
@@ -1294,19 +1306,19 @@
    "scans": 1
   }
  ],
- "scans": 113,
- "stand": "2026-11-24T15:53+01:00",
- "stand_text": "24.11.2026 15:53",
+ "scans": 114,
+ "stand": "2026-11-26T10:31+01:00",
+ "stand_text": "26.11.2026 10:31",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "138 offen, 21 Arbeitstage (Mo–Fr) → 6,6 Objekte je Arbeitstag",
+  "bedarf": "137 offen, 19 Arbeitstage (Mo–Fr) → 7,3 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 112,
-  "je_tag": 6.6,
-  "offen": 138,
+  "erreicht": 113,
+  "je_tag": 7.3,
+  "offen": 137,
   "prozent": 45,
-  "tage": 21,
-  "text": "112 / 250 — 45 % erreicht",
+  "tage": 19,
+  "text": "113 / 250 — 45 % erreicht",
   "vorbei": false
  }
 }
