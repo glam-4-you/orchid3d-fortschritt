@@ -5,6 +5,18 @@
  ],
  "objekte": [
   {
+   "accession": "1989-1035",
+   "bild": "bilder/1989-1035.jpg",
+   "daten": [
+    "2026-11-26"
+   ],
+   "datum": "2026-11-26",
+   "in_liste": true,
+   "mehrfach": false,
+   "name": "Schoenorchis juncifolia",
+   "scans": 1
+  },
+  {
    "accession": "2020-0016",
    "bild": "bilder/2020-0016.jpg",
    "daten": [
@@ -1534,19 +1546,19 @@
    "scans": 1
   }
  ],
- "scans": 133,
- "stand": "2026-11-26T14:15+01:00",
- "stand_text": "26.11.2026 14:15",
+ "scans": 134,
+ "stand": "2026-11-26T14:24+01:00",
+ "stand_text": "26.11.2026 14:24",
  "ziel": {
   "anzahl": 250,
-  "bedarf": "118 offen, 19 Arbeitstage (Mo–Fr) → 6,3 Objekte je Arbeitstag",
+  "bedarf": "117 offen, 19 Arbeitstage (Mo–Fr) → 6,2 Objekte je Arbeitstag",
   "datum": "2026-12-22",
-  "erreicht": 132,
-  "je_tag": 6.3,
-  "offen": 118,
+  "erreicht": 133,
+  "je_tag": 6.2,
+  "offen": 117,
   "prozent": 53,
   "tage": 19,
-  "text": "132 / 250 — 53 % erreicht",
+  "text": "133 / 250 — 53 % erreicht",
   "vorbei": false
  }
 }
